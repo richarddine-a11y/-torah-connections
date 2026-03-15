@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torah Connections | קשרי תורה</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ── CSS Variables ─────────────────────────────────────────── */
+    :root {
+      --parchment:       #F6EDD9;
+      --parchment-mid:   #EFE0BC;
+      --parchment-dark:  #DECA96;
+      --parchment-light: #FDF8EE;
+      --ink:             #1C1008;
+      --ink-mid:         #3D2B1F;
+      --ink-soft:        #6B5042;
+      --wine:            #6B1A2A;
+      --wine-dark:       #450F1A;
+      --gold:            #B8860B;
+      --gold-light:      #D4A843;
+
+      --cat-yellow:  #E8B020;
+      --cat-green:   #4E8E5A;
+      --cat-blue:    #2E5FAA;
+      --cat-purple:  #6F32A0;
+
+      --cat-yellow-bg: #FAE58A;
+      --cat-green-bg:  #B7DFB8;
+      --cat-blue-bg:   #B3CBEE;
+      --cat-purple-bg: #D8BAF0;
+
+      --radius: 7px;
+      --shadow: 0 2px 10px rgba(28,16,8,0.12);
+    }
+
+    /* ── Reset ─────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ── Body ──────────────────────────────────────────────────── */
+    body {
+      background-color: var(--parchment-light);
+      background-image:
+        radial-gradient(ellipse 70% 50% at 15% 10%, rgba(184,134,11,0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 40% at 85% 90%, rgba(107,26,42,0.07) 0%, transparent 70%);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 16px;
+      line-height: 1.5;
+      min-height: 100vh;
+      padding-bottom: 5rem;
+    }
+
+    /* ── Header ────────────────────────────────────────────────── */
+    header {
+      background: linear-gradient(150deg, var(--wine) 0%, var(--wine-dark) 100%);
+      color: var(--parchment);
+      padding: 1.4rem 1.25rem 1.2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -55deg, transparent, transparent 18px,
+        rgba(255,255,255,0.018) 18px, rgba(255,255,255,0.018) 36px
+      );
+      pointer-events: none;
+    }
+    .site-name {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(1.35rem, 4.5vw, 2rem);
+      font-weight: 600;
+      letter-spacing: 0.07em;
+      color: var(--gold-light);
+      text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+      position: relative;
+    }
+    .site-name-heb {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: 0.78em;
+      letter-spacing: 0;
+      opacity: 0.85;
+    }
+    .header-parasha {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: clamp(1rem, 3vw, 1.15rem);
+      color: var(--parchment);
+      margin-top: 0.3rem;
+      position: relative;
+    }
+    .header-meta {
+      font-size: 0.82rem;
+      color: rgba(246,237,217,0.7);
+      font-style: italic;
+      margin-top: 0.2rem;
+      position: relative;
+    }
+
+    /* ── Main wrapper ───────────────────────────────────────────── */
+    main {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 0;
+    }
+
+    .tagline {
+      text-align: center;
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+      font-style: italic;
+      margin-bottom: 1.1rem;
+    }
+
+    /* ── Game card ──────────────────────────────────────────────── */
+    .game-card {
+      background: var(--parchment);
+      border: 1px solid var(--parchment-dark);
+      border-radius: 12px;
+      padding: 1rem 1rem 1.1rem;
+      box-shadow: var(--shadow);
+    }
+
+    /* ── Solved rows ────────────────────────────────────────────── */
+    #solved-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      margin-bottom: 0.45rem;
+    }
+    .solved-row {
+      border-radius: var(--radius);
+      padding: 0.7rem 1rem 0.6rem;
+      animation: rowSlideIn 0.45s cubic-bezier(0.22,1,0.36,1);
+    }
+    @keyframes rowSlideIn {
+      from { opacity: 0; transform: translateY(-10px) scale(0.98); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .solved-row-name {
+      font-family: 'Cinzel', serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .solved-row-words {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: 1rem;
+      margin-top: 0.1rem;
+      opacity: 0.85;
+      direction: rtl;
+      unicode-bidi: isolate;
+    }
+    .solved-row-explanation {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      margin-top: 0.45rem;
+      padding-top: 0.45rem;
+      border-top: 1px solid rgba(0,0,0,0.12);
+      opacity: 0.82;
+    }
+    /* color schemes */
+    .cat-yellow { background: var(--cat-yellow-bg); color: var(--ink); }
+    .cat-green  { background: var(--cat-green-bg);  color: var(--ink); }
+    .cat-blue   { background: var(--cat-blue-bg);   color: var(--ink); }
+    .cat-purple { background: var(--cat-purple-bg); color: var(--ink); }
+    .cat-yellow .solved-row-name { color: #7a5a00; }
+    .cat-green  .solved-row-name { color: #1e4d26; }
+    .cat-blue   .solved-row-name { color: #163566; }
+    .cat-purple .solved-row-name { color: #3d1660; }
+    .cat-yellow .solved-row-explanation { border-top-color: rgba(122,90,0,0.2); }
+    .cat-green  .solved-row-explanation { border-top-color: rgba(30,77,38,0.2); }
+    .cat-blue   .solved-row-explanation { border-top-color: rgba(22,53,102,0.2); }
+    .cat-purple .solved-row-explanation { border-top-color: rgba(61,22,96,0.2); }
+
+    /* ── Word grid ──────────────────────────────────────────────── */
+    #word-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.42rem;
+    }
+
+    .word-card {
+      background: var(--parchment-light);
+      border: 1.5px solid var(--parchment-dark);
+      border-radius: var(--radius);
+      cursor: pointer;
+      user-select: none;
+      padding: 0.45rem 0.2rem;
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: clamp(0.82rem, 2.4vw, 1rem);
+      line-height: 1.25;
+      color: var(--ink);
+      text-align: center;
+      direction: rtl;
+      transition: background 0.12s, border-color 0.12s, transform 0.1s, box-shadow 0.12s;
+      box-shadow: 0 1px 3px rgba(28,16,8,0.08);
+      -webkit-tap-highlight-color: transparent;
+    }
+    .word-card:hover {
+      background: var(--parchment-mid);
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(28,16,8,0.14);
+    }
+    .word-card.selected {
+      background: var(--ink-mid);
+      color: var(--parchment-light);
+      border-color: var(--ink-mid);
+      box-shadow: 0 2px 8px rgba(28,16,8,0.28);
+    }
+    .word-card.shake {
+      animation: shake 0.42s ease;
+    }
+    .word-card.pop {
+      animation: pop 0.35s ease;
+    }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); background: var(--parchment-light); }
+      15%      { transform: translateX(-5px); background: #ffe0e0; border-color: #cc4444; }
+      35%      { transform: translateX(5px); }
+      55%      { transform: translateX(-3px); }
+      75%      { transform: translateX(3px); }
+    }
+    @keyframes pop {
+      0%   { transform: scale(1); }
+      40%  { transform: scale(1.07); }
+      100% { transform: scale(1); }
+    }
+    .word-card.bounce-win {
+      animation: bounceWin 0.5s ease both;
+    }
+    @keyframes bounceWin {
+      0%,100% { transform: translateY(0); }
+      40%     { transform: translateY(-9px); }
+      70%     { transform: translateY(-4px); }
+    }
+
+    /* ── Mistakes ───────────────────────────────────────────────── */
+    .mistakes-row {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin-top: 0.95rem;
+      font-size: 0.88rem;
+      color: var(--ink-soft);
+    }
+    .mistake-dots {
+      display: flex;
+      gap: 0.38rem;
+    }
+    .mdot {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: var(--ink-mid);
+      transition: background 0.3s, transform 0.2s;
+    }
+    .mdot.spent {
+      background: var(--parchment-dark);
+      transform: scale(0.85);
+    }
+
+    /* ── Controls ───────────────────────────────────────────────── */
+    .controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem;
+      margin-top: 0.95rem;
+      flex-wrap: wrap;
+    }
+    .btn-group { display: flex; gap: 0.45rem; }
+
+    .btn {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      padding: 0.42rem 1.05rem;
+      border-radius: 20px;
+      border: 1.5px solid var(--ink-mid);
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      transition: background 0.14s, color 0.14s, opacity 0.14s;
+    }
+    .btn:hover:not(:disabled) {
+      background: var(--ink-mid);
+      color: var(--parchment-light);
+    }
+    .btn:disabled { opacity: 0.38; cursor: not-allowed; }
+
+    .btn-submit {
+      background: var(--wine);
+      border-color: var(--wine);
+      color: var(--parchment-light);
+      font-weight: 500;
+    }
+    .btn-submit:hover:not(:disabled) {
+      background: var(--wine-dark);
+      border-color: var(--wine-dark);
+    }
+
+    /* ── Toast ──────────────────────────────────────────────────── */
+    #toast {
+      position: fixed;
+      top: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(-70px);
+      background: var(--ink);
+      color: var(--parchment-light);
+      padding: 0.55rem 1.4rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-style: italic;
+      letter-spacing: 0.01em;
+      z-index: 200;
+      opacity: 0;
+      transition: transform 0.28s ease-out, opacity 0.28s;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    #toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* ── Result message ─────────────────────────────────────────── */
+    #game-result {
+      min-height: 1.6rem;
+      text-align: center;
+      margin-top: 1.1rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--wine);
+    }
+
+    /* ── Divider ────────────────────────────────────────────────── */
+    .ornament {
+      text-align: center;
+      margin: 2rem 0 1.5rem;
+      color: var(--gold);
+      font-size: 1.15rem;
+      letter-spacing: 0.35em;
+      opacity: 0.75;
+    }
+
+    /* ── Dvar Torah section ──────────────────────────────────────── */
+    .dvar-section {
+      background: var(--parchment);
+      border: 1px solid var(--parchment-dark);
+      border-left: 4px solid var(--wine);
+      border-radius: 0 10px 10px 0;
+      padding: 1.4rem 1.4rem 1.5rem;
+      box-shadow: var(--shadow);
+    }
+    .dvar-eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--wine);
+      opacity: 0.75;
+      margin-bottom: 0.25rem;
+    }
+    .dvar-heb-title {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: 1.35rem;
+      color: var(--wine);
+      direction: rtl;
+      line-height: 1.3;
+    }
+    .dvar-eng-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.98rem;
+      color: var(--ink-mid);
+      margin-top: 0.2rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+    }
+    .dvar-body {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.78;
+      color: var(--ink-mid);
+    }
+    .dvar-body p { margin-bottom: 0.95rem; }
+    .dvar-body p:last-child { margin-bottom: 0; }
+    .dvar-body .heb {
+      font-family: 'Frank Ruhl Libre', serif;
+      font-size: 1.1em;
+    }
+    .dvar-body em { font-style: italic; }
+
+    /* ── Footer ─────────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 0 1rem;
+      color: rgba(28,16,8,0.35);
+      font-size: 0.78rem;
+      font-style: italic;
+    }
+
+    /* ── Responsive ─────────────────────────────────────────────── */
+    @media (max-width: 460px) {
+      .word-card { min-height: 50px; font-size: 0.8rem; }
+      #word-grid  { gap: 0.32rem; }
+      .controls   { flex-direction: column; align-items: stretch; }
+      .btn-group  { justify-content: center; }
+      .mistakes-row { justify-content: center; }
+      .btn-submit { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Toast notification ── -->
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- ── Header ── -->
+<header>
+  <div class="site-name">
+    Torah Connections &thinsp;·&thinsp; <span class="site-name-heb">קשרי תורה</span>
+  </div>
+  <div class="header-parasha" id="hdr-parasha">Loading…</div>
+  <div class="header-meta" id="hdr-meta"></div>
+</header>
+
+<!-- ── Main ── -->
+<main>
+  <p class="tagline">Find four groups of four words that share a connection.</p>
+
+  <!-- Game card -->
+  <div class="game-card">
+    <div id="solved-rows"></div>
+    <div id="word-grid"></div>
+
+    <!-- Mistakes -->
+    <div class="mistakes-row">
+      <span>Mistakes remaining:</span>
+      <div class="mistake-dots" id="mistake-dots">
+        <div class="mdot" id="mdot-0"></div>
+        <div class="mdot" id="mdot-1"></div>
+        <div class="mdot" id="mdot-2"></div>
+        <div class="mdot" id="mdot-3"></div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="btn-group">
+        <button class="btn" id="btn-shuffle"   onclick="shuffleGrid()">Shuffle</button>
+        <button class="btn" id="btn-deselect"  onclick="deselectAll()" disabled>Deselect</button>
+      </div>
+      <button class="btn btn-submit" id="btn-submit" onclick="submitGuess()" disabled>Submit</button>
+    </div>
+  </div>
+
+  <!-- Result -->
+  <div id="game-result" role="status" aria-live="polite"></div>
+
+  <!-- Ornament -->
+  <div class="ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+  <!-- Dvar Torah -->
+  <section class="dvar-section" aria-label="Dvar Torah">
+    <div class="dvar-eyebrow">Dvar Torah</div>
+    <div class="dvar-heb-title" id="dvar-heb-title">דבר תורה</div>
+    <div class="dvar-eng-title" id="dvar-eng-title"></div>
+    <div class="dvar-body"      id="dvar-body"></div>
+  </section>
+</main>
+
+<footer id="footer-txt"></footer>
+
+<!-- ── Puzzle data (replace this file each week) ── -->
+<script src="current-puzzle.js"></script>
+
+<!-- ── Game engine ── -->
+<script>
+"use strict";
+
+// ─── State ─────────────────────────────────────────────────────────────────
+const STATE = {
+  words:       [],          // {id, text, catIdx, solved}
+  selected:    new Set(),   // word ids
+  solvedCats:  new Set(),   // category indices already cleared
+  mistakes:    0,
+  MAX_MISTAKES: 4,
+  over:        false,
+};
+
+const COLOR_CLASS = { yellow:'cat-yellow', green:'cat-green', blue:'cat-blue', purple:'cat-purple' };
+
+// ─── Init ───────────────────────────────────────────────────────────────────
+function init() {
+  if (typeof PUZZLE === 'undefined') {
+    document.getElementById('word-grid').innerHTML =
+      '<p style="padding:1.5rem;text-align:center;color:var(--wine);grid-column:1/-1">' +
+      'Puzzle data not found. Make sure <code>current-puzzle.js</code> is in the same folder.</p>';
+    return;
+  }
+
+  // Header
+  const hdrP = document.getElementById('hdr-parasha');
+  hdrP.textContent = [PUZZLE.hebrewWeek, PUZZLE.week].filter(Boolean).join('  ·  ');
+  document.getElementById('hdr-meta').textContent =
+    [PUZZLE.date, PUZZLE.parasha, PUZZLE.haftarah].filter(Boolean).join('  |  ');
+  document.title = `Torah Connections — ${PUZZLE.week || 'Weekly Puzzle'}`;
+
+  // Build word objects
+  const words = [];
+  PUZZLE.categories.forEach((cat, ci) => {
+    cat.words.forEach(text => {
+      words.push({ id: words.length, text, catIdx: ci, solved: false });
+    });
+  });
+  STATE.words = shuffle(words);
+
+  renderGrid();
+  syncMistakes();
+
+  // Dvar Torah
+  const dt = PUZZLE.dvarTorah || {};
+  if (dt.hebrewTitle) document.getElementById('dvar-heb-title').textContent = dt.hebrewTitle;
+  if (dt.title)       document.getElementById('dvar-eng-title').textContent = dt.title;
+  if (dt.text)        document.getElementById('dvar-body').innerHTML = dt.text;
+
+  // Footer
+  document.getElementById('footer-txt').textContent =
+    ['Torah Connections', PUZZLE.week, PUZZLE.date].filter(Boolean).join('  ·  ');
+}
+
+// ─── Render grid ────────────────────────────────────────────────────────────
+function renderGrid() {
+  const grid = document.getElementById('word-grid');
+  const visible = STATE.words.filter(w => !w.solved);
+
+  if (visible.length === 0) {
+    grid.innerHTML = '';
+    return;
+  }
+
+  grid.innerHTML = visible.map(w => `
+    <div class="word-card${STATE.selected.has(w.id) ? ' selected' : ''}"
+         id="wc-${w.id}"
+         onclick="toggleWord(${w.id})"
+         role="button"
+         aria-pressed="${STATE.selected.has(w.id)}"
+         tabindex="0">
+      ${safe(w.text)}
+    </div>`).join('');
+
+  // Keyboard nav
+  grid.querySelectorAll('.word-card').forEach(el => {
+    el.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } };
+  });
+}
+
+// ─── Select / deselect ──────────────────────────────────────────────────────
+function toggleWord(id) {
+  if (STATE.over) return;
+  if (STATE.selected.has(id)) {
+    STATE.selected.delete(id);
+  } else {
+    if (STATE.selected.size >= 4) return;
+    STATE.selected.add(id);
+  }
+  renderGrid();
+  syncButtons();
+}
+
+function deselectAll() {
+  STATE.selected.clear();
+  renderGrid();
+  syncButtons();
+}
+
+// ─── Submit ─────────────────────────────────────────────────────────────────
+function submitGuess() {
+  if (STATE.selected.size !== 4 || STATE.over) return;
+
+  const picked = [...STATE.selected].map(id => STATE.words.find(w => w.id === id));
+  const cats   = [...new Set(picked.map(w => w.catIdx))];
+
+  if (cats.length === 1) {
+    // ── Correct ──
+    const ci  = cats[0];
+    const cat = PUZZLE.categories[ci];
+
+    // Pop animation, then resolve
+    picked.forEach(w => {
+      const el = document.getElementById(`wc-${w.id}`);
+      if (el) el.classList.add('pop');
+    });
+
+    setTimeout(() => {
+      picked.forEach(w => { w.solved = true; });
+      STATE.solvedCats.add(ci);
+      STATE.selected.clear();
+
+      addSolvedRow(cat, ci);
+      renderGrid();
+      syncButtons();
+
+      if (STATE.solvedCats.size === PUZZLE.categories.length) {
+        endGame(true);
+      }
+    }, 350);
+
+  } else {
+    // ── Wrong ──
+    const catCounts = {};
+    picked.forEach(w => { catCounts[w.catIdx] = (catCounts[w.catIdx] || 0) + 1; });
+    if (Math.max(...Object.values(catCounts)) === 3) toast('One away…');
+
+    picked.forEach(w => {
+      const el = document.getElementById(`wc-${w.id}`);
+      if (el) { el.classList.add('shake'); el.addEventListener('animationend', () => el.classList.remove('shake'), {once:true}); }
+    });
+
+    STATE.mistakes++;
+    syncMistakes();
+    STATE.selected.clear();
+
+    setTimeout(() => {
+      renderGrid();
+      syncButtons();
+      if (STATE.mistakes >= STATE.MAX_MISTAKES) endGame(false);
+    }, 420);
+  }
+}
+
+// ─── Add solved row ──────────────────────────────────────────────────────────
+function addSolvedRow(cat, ci) {
+  const row = document.createElement('div');
+  row.className = `solved-row ${COLOR_CLASS[cat.color] || 'cat-yellow'}`;
+  // Hebrew words joined with middot
+  const wordLine = cat.words.map(safe).join(' · ');
+  row.innerHTML = `
+    <div class="solved-row-name">${safe(cat.name)}</div>
+    <div class="solved-row-words">${wordLine}</div>
+    ${cat.explanation ? `<div class="solved-row-explanation">${cat.explanation}</div>` : ''}
+  `;
+  document.getElementById('solved-rows').appendChild(row);
+}
+
+// ─── Shuffle ────────────────────────────────────────────────────────────────
+function shuffleGrid() {
+  const unsolved = STATE.words.filter(w => !w.solved);
+  const solved   = STATE.words.filter(w => w.solved);
+  STATE.words = [...solved, ...shuffle(unsolved)];
+  STATE.selected.clear();
+  renderGrid();
+  syncButtons();
+}
+
+// ─── End game ────────────────────────────────────────────────────────────────
+function endGame(won) {
+  STATE.over = true;
+  const resultEl = document.getElementById('game-result');
+
+  if (won) {
+    resultEl.innerHTML = '🕯️ &nbsp;Excellent — all connections found.';
+    // Bounce the solved rows in sequence
+    document.querySelectorAll('.solved-row').forEach((row, i) => {
+      setTimeout(() => row.style.transform = 'scale(1.02)', i * 80);
+      setTimeout(() => row.style.transform = '', i * 80 + 180);
+    });
+  } else {
+    resultEl.textContent = 'Better luck next week — see the answers below.';
+    // Reveal remaining unsolved categories
+    PUZZLE.categories.forEach((cat, ci) => {
+      if (!STATE.solvedCats.has(ci)) {
+        cat.words.forEach(text => {
+          const w = STATE.words.find(x => x.text === text && !x.solved);
+          if (w) w.solved = true;
+        });
+        STATE.solvedCats.add(ci);
+        addSolvedRow(cat, ci);
+      }
+    });
+    renderGrid();
+  }
+
+  document.getElementById('btn-shuffle').disabled  = true;
+  document.getElementById('btn-deselect').disabled = true;
+  document.getElementById('btn-submit').disabled   = true;
+}
+
+// ─── UI helpers ─────────────────────────────────────────────────────────────
+function syncMistakes() {
+  const remaining = STATE.MAX_MISTAKES - STATE.mistakes;
+  for (let i = 0; i < STATE.MAX_MISTAKES; i++) {
+    const dot = document.getElementById(`mdot-${i}`);
+    if (dot) dot.classList.toggle('spent', i >= remaining);
+  }
+}
+
+function syncButtons() {
+  document.getElementById('btn-submit').disabled  = STATE.selected.size !== 4 || STATE.over;
+  document.getElementById('btn-deselect').disabled = STATE.selected.size === 0 || STATE.over;
+}
+
+let toastTimer;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+// ─── Utils ──────────────────────────────────────────────────────────────────
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function safe(str) {
+  const d = document.createElement('div');
+  d.appendChild(document.createTextNode(String(str)));
+  return d.innerHTML;
+}
+
+// ─── Start ──────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
