@@ -1,7 +1,6 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Replace this file each week with the new puzzle.
-//  The index.html game engine will read from this automatically.
+//  Parashat Vayikra · Shabbat March 21, 2026
 // ─────────────────────────────────────────────────────────────────
 
 const PUZZLE = {
@@ -9,53 +8,60 @@ const PUZZLE = {
   // ── Header info ──────────────────────────────────────────────────
   week:       "Parashat Vayikra",
   hebrewWeek: "פָּרָשַׁת וַיִּקְרָא",
-  date:       "21 Adar 5786  ·  March 21, 2026",
+  date:       "21 Adar II 5786  ·  March 21, 2026",
   parasha:    "Leviticus 1:1–5:26",
   haftarah:   "Isaiah 43:21–44:23",
 
   // ── Four categories ───────────────────────────────────────────────
-  // • color must be exactly: "yellow", "green", "blue", or "purple"
-  // • words: array of exactly 4 strings (Hebrew with or without nikud)
-  // • explanation: shown in the solved row after that group is found
   categories: [
     {
-      name: "Types of Offerings",
+      name:  "Pour Out (Different Verbs, One from the Seder, One Alternate for Seder)",
       color: "yellow",
-      words: ["עוֹלָה", "מִנְחָה", "שְׁלָמִים", "חַטָּאת"],
-      explanation: "The four core korban types introduced in Vayikra 1–4: the burnt offering (עוֹלָה, wholly consumed by fire), grain offering (מִנְחָה), peace offering (שְׁלָמִים), and sin offering (חַטָּאת)."
+      words: ["LOVE", "SLAKE", "SPIRIT", "WRATH"],
+      explanation: "All four are things that get poured out — שָׁפַךְ (shafach) — in Isaiah or at the Seder. Isaiah 44:3: \"I will pour my Spirit upon your offspring.\" Isaiah 43:28: \"I poured out my wrath upon them.\" At the Seder we pour four cups of wine, pour water for handwashing, and spill drops for the ten plagues. The same verb connects divine love, redemption, judgment, and ritual."
     },
     {
-      name: "Animals for the Olah (Vayikra 1)",
+      name:  "Descriptions of Israelites (Isaiah 43)",
       color: "green",
-      words: ["שׁוֹר", "כֶּבֶשׂ", "עֵז", "תּוֹר"],
-      explanation: "Vayikra 1 offers a sliding scale: cattle (שׁוֹר) for the wealthy, sheep (כֶּבֶשׂ) or goat (עֵז) for the middling, and turtledove (תּוֹר) for those of limited means — reflecting the Torah's insistence that all Israelites can draw near."
+      words: ["CHOSEN", "FORMED FOR ME", "SERVANT", "WITNESS"],
+      explanation: "Isaiah 43 piles up identities for Israel: \"You are my witnesses\" (v.10), \"my servant whom I have chosen\" (v.10), \"I formed them for myself\" (v.21). These are not titles of achievement but of relationship — Israel's identity is defined entirely by God's choosing and forming, not by Israel's merit."
     },
     {
-      name: "Priestly Actions at the Altar",
+      name:  "Uses of Wood in Isaiah 44:12–16",
       color: "blue",
-      words: ["זָרַק", "הִקְטִיר", "הִפְשִׁיט", "שָׁחַט"],
-      explanation: "The physical rites of the kohanim: dashing blood on the altar (זָרַק), turning fat to smoke (הִקְטִיר), flaying the animal (הִפְשִׁיט), and slaughtering (שָׁחַט). Each gesture had precise halakhic requirements, engaging the entire body in the act of worship."
+      words: ["BREAD", "MEAT", "METAL", "WARMTH"],
+      explanation: "Isaiah's great satire of idol-making (44:12–16): the craftsman uses part of a tree to forge metal tools, part to roast meat, part to bake bread, part to warm himself — and with the leftover wood he makes a god and bows down. The prophet's point: God cannot be fashioned from what is left over after practical needs are met."
     },
     {
-      name: "From the Root ק-ר-ב  (Draw Near)",
+      name:  "What God Wants Us to Do (Isaiah 43–44)",
       color: "purple",
-      words: ["קָרַב", "קָרְבָּן", "לְהַקְרִיב", "קָרוֹב"],
-      explanation: "The root ק-ר-ב saturates this parasha. קָרְבָּן (offering) means literally 'that which draws near.' The entire sacrificial system is a structured theology of approach — and the call to nearness does not end with the Temple."
+      words: ["RETURN", "SACRIFICE", "SHOUT", "SING"],
+      explanation: "Isaiah 43–44 is full of divine imperatives and invitations: \"Sing, O heavens\" (44:23), \"Shout, O depths of the earth\" (44:23), \"Return to me\" (44:22), and the ironic note that Israel has not brought proper sacrifice (43:23–24). God lavishes forgiveness even when the people have been stingy with their worship."
     }
   ],
 
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "לְהַקְרִיב — עַל פֵּירוּשׁ הַקִּרְבָּה",
-    title: "The Grammar of Approach",
+    hebrewTitle: "מַה שֶּׁנִּשְׁפָּךְ",
+    title: "What Gets Poured Out — A Dvar Torah on Isaiah 43–44",
     text: `
-<p>The book of Vayikra begins with a whisper. God calls to Moses — <span class="heb">וַיִּקְרָא אֶל-מֹשֶׁה</span> — before issuing a single command. The rabbis note the diminutive <em>alef</em> written small at the end of <span class="heb">וַיִּקְרָא</span>: something intimate, nearly inaudible, is happening. Relationship precedes ritual.</p>
+<p>Four verbs of pouring: <em>love, slake, spirit, wrath.</em></p>
 
-<p>What is a <span class="heb">קָרְבָּן</span>? The English word <em>sacrifice</em> — from <em>sacer facere</em>, to make sacred — points toward the object surrendered. The Hebrew word points toward the person. From the root <span class="heb">ק-ר-ב</span>, "to draw near," a <span class="heb">קָרְבָּן</span> is the act and instrument of approach itself. You are not giving something up; you are moving toward something.</p>
+<p>Isaiah 44:3: <span class="heb">אֶצֹּק רוּחִי עַל זַרְעֶךָ</span> — "I will pour my Spirit upon your offspring." Isaiah 43:28: "I poured out my wrath upon them." Same verb — <span class="heb">שָׁפַךְ</span> <em>(shafach)</em> — to pour, to spill, to lavish.</p>
 
-<p>The Netziv, in <em>Ha'emek Davar</em>, emphasizes that the precise gestures of the korban service — the sequence of blood, fire, and smoke — were not incidental to the spiritual experience but were its very medium. The body enacts what the soul intends. There is no shortcut to transcendence.</p>
+<p>At the Seder, we pour out wine for God's wrath — the ten plagues. We pour water to wash hands. We pour wine for redemption's four cups. Pouring is the Seder's primary physical act.</p>
 
-<p>In an age without the Temple, this parasha asks: what does it mean to draw near? The Talmud teaches that prayer stands in the place of korbanot. But perhaps the deeper lesson is structural: genuine approach requires discipline, preparation, and the courage to show up — not just once, but again and again, through the full grammar of a life.</p>
+<p>But here is Isaiah's radical claim: God pours the same way. Divine love isn't measured out in careful drops — it's poured lavishly like water on parched ground. The Spirit isn't rationed — it's poured out on your children. Even wrath, when it comes, pours.</p>
+
+<p>The idol-maker in 44:14–16 uses wood for bread, meat, warmth — careful, measured uses. Functional. Efficient. He portions out the tree: this much for cooking, this much for heating, and oh, the leftover? I'll make a god.</p>
+
+<p>But God doesn't portion. God pours. <span class="heb">רוּחַ</span> like water. Wrath like flood. Love beyond measure.</p>
+
+<p>Vayikra begins: "When a person brings an offering…" The Haftarah responds: you've been stingy with offerings (43:23–24), but I've been lavish with forgiveness. You measure out your service; I pour out redemption.</p>
+
+<p>The Seder teaches the same. We don't sip carefully — we pour four cups. We don't wash hands minimally — we pour abundantly. We don't drip out God's wrath — we spill wine.</p>
+
+<p>Shabbat Shalom — may we learn to pour, not measure. To lavish, not ration. To slake others' thirst as God pours Spirit on us.</p>
 `
   }
 
