@@ -1,67 +1,69 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Vayikra · Shabbat March 21, 2026
+//  Parashat Hachodesh · Shabbat HaGadol · March 28, 2026
 // ─────────────────────────────────────────────────────────────────
 
 const PUZZLE = {
 
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Parashat Vayikra",
-  hebrewWeek: "פָּרָשַׁת וַיִּקְרָא",
-  date:       "21 Adar II 5786  ·  March 21, 2026",
-  parasha:    "Leviticus 1:1–5:26",
-  haftarah:   "Isaiah 43:21–44:23",
+  week:       "Shabbat HaGadol",
+  hebrewWeek: "פָּרָשַׁת הַחֹדֶשׁ · שַׁבָּת הַגָּדוֹל",
+  date:       "28 Adar II 5786  ·  March 28, 2026",
+  parasha:    "Exodus 12:1–20",
+  haftarah:   "Malachi 3:4–24",
 
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Pour Out (Different Verbs, One from the Seder, One Alternate for Seder)",
+      name:  "Cynical Complaints About Serving God (Malachi 3:13–15)",
       color: "yellow",
-      words: ["LOVE", "SLAKE", "SPIRIT", "WRATH"],
-      explanation: "All four are things that get poured out — שָׁפַךְ (shafach) — in Isaiah or at the Seder. Isaiah 44:3: \"I will pour my Spirit upon your offspring.\" Isaiah 43:28: \"I poured out my wrath upon them.\" At the Seder we pour four cups of wine, pour water for handwashing, and spill drops for the ten plagues. The same verb connects divine love, redemption, judgment, and ritual."
+      words: ["WE'RE GOOD ALREADY", "NO GAIN", "GOOD SUFFER", "WICKED THRIVE"],
+      explanation: "Malachi 3:14–15 quotes the people's own words back at them: \"It is vain to serve God. What is the profit of our keeping his charge? Now we call the arrogant blessed. Evildoers not only prosper — they put God to the test and they escape.\" These are the four cynical propositions Malachi is determined to dismantle."
     },
     {
-      name:  "Descriptions of Israelites (Isaiah 43)",
+      name:  "Evildoers God Will Judge (Malachi 3:5)",
       color: "green",
-      words: ["CHOSEN", "FORMED FOR ME", "SERVANT", "WITNESS"],
-      explanation: "Isaiah 43 piles up identities for Israel: \"You are my witnesses\" (v.10), \"my servant whom I have chosen\" (v.10), \"I formed them for myself\" (v.21). These are not titles of achievement but of relationship — Israel's identity is defined entirely by God's choosing and forming, not by Israel's merit."
+      words: ["SORCERERS", "OPPRESSORS", "CHEATERS", "ATTACKERS"],
+      explanation: "Malachi 3:5: \"I will be a swift witness against the sorcerers, against the adulterers, against those who swear falsely, against those who oppress the hired worker in his wages, the widow and the fatherless, and those who thrust aside the sojourner.\" The judgment is social as well as spiritual — injustice to the vulnerable is at the center of the indictment."
     },
     {
-      name:  "Uses of Wood in Isaiah 44:12–16",
+      name:  "God's Blessings for the Faithful (Malachi 3:10–12)",
       color: "blue",
-      words: ["BREAD", "MEAT", "METAL", "WARMTH"],
-      explanation: "Isaiah's great satire of idol-making (44:12–16): the craftsman uses part of a tree to forge metal tools, part to roast meat, part to bake bread, part to warm himself — and with the leftover wood he makes a god and bows down. The prophet's point: God cannot be fashioned from what is left over after practical needs are met."
+      words: ["VINE", "FRUIT", "BLESSING", "HAPPINESS"],
+      explanation: "Malachi 3:10–12: \"I will pour down for you a blessing until there is no more need… your vine in the field shall not fail to bear… all nations will call you blessed, for you will be a land of delight.\" The happiness of those who return to God is not deferred — it becomes visible to all the world."
     },
     {
-      name:  "What God Wants Us to Do (Isaiah 43–44)",
+      name:  "Elijah's Reconciliation Mission (Malachi 3:23–24)",
       color: "purple",
-      words: ["RETURN", "SACRIFICE", "SHOUT", "SING"],
-      explanation: "Isaiah 43–44 is full of divine imperatives and invitations: \"Sing, O heavens\" (44:23), \"Shout, O depths of the earth\" (44:23), \"Return to me\" (44:22), and the ironic note that Israel has not brought proper sacrifice (43:23–24). God lavishes forgiveness even when the people have been stingy with their worship."
+      words: ["ELIJAH", "CHILDREN", "PARENTS", "JUSTICE"],
+      explanation: "The book of Malachi closes — and the entire prophetic canon closes — with Elijah. Malachi 3:23–24: \"I will send you Elijah the prophet before the great and awesome day of the LORD. He will turn the hearts of fathers to their children and the hearts of children to their fathers.\" Justice (3:18) will again be visible: the distinction between righteous and wicked restored."
     }
   ],
 
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "מַה שֶּׁנִּשְׁפָּךְ",
-    title: "What Gets Poured Out — A Dvar Torah on Isaiah 43–44",
+    hebrewTitle: "הַתְּלוּנָה שֶׁלִּפְנֵי הַגְּאֻלָּה",
+    title: "The Complaint Before Redemption — A Dvar Torah on Malachi 3",
     text: `
-<p>Four verbs of pouring: <em>love, slake, spirit, wrath.</em></p>
+<p>Four cynical complaints: <em>we're good already, no gain, good suffer, wicked thrive.</em></p>
 
-<p>Isaiah 44:3: <span class="heb">אֶצֹּק רוּחִי עַל זַרְעֶךָ</span> — "I will pour my Spirit upon your offspring." Isaiah 43:28: "I poured out my wrath upon them." Same verb — <span class="heb">שָׁפַךְ</span> <em>(shafach)</em> — to pour, to spill, to lavish.</p>
+<p>Malachi 3:14–15: <span class="heb">שָׁוְא עֲבֹד אֱלֹהִים</span> — "It is vain to serve God. What is the profit of keeping his charge? The arrogant are blessed. Evildoers prosper."</p>
 
-<p>At the Seder, we pour out wine for God's wrath — the ten plagues. We pour water to wash hands. We pour wine for redemption's four cups. Pouring is the Seder's primary physical act.</p>
+<p>This is Shabbat HaGadol — the Great Sabbath before Pesach. We read about Elijah who will herald redemption, reconcile parents and children, restore justice. But Malachi starts with complaint.</p>
 
-<p>But here is Isaiah's radical claim: God pours the same way. Divine love isn't measured out in careful drops — it's poured lavishly like water on parched ground. The Spirit isn't rationed — it's poured out on your children. Even wrath, when it comes, pours.</p>
+<p><em>We're serving God and getting nothing. The wicked thrive while the good suffer. What's the point?</em></p>
 
-<p>The idol-maker in 44:14–16 uses wood for bread, meat, warmth — careful, measured uses. Functional. Efficient. He portions out the tree: this much for cooking, this much for heating, and oh, the leftover? I'll make a god.</p>
+<p>Sound familiar? It's the complaint of Egyptian slavery — we're keeping covenant, and we're making bricks. Where's God?</p>
 
-<p>But God doesn't portion. God pours. <span class="heb">רוּחַ</span> like water. Wrath like flood. Love beyond measure.</p>
+<p>The Haggadah anticipates this cynicism in the Four Children. The wicked child asks: "What is this service <em>to you</em>?" — meaning, what do you get from it? No gain. Why bother?</p>
 
-<p>Vayikra begins: "When a person brings an offering…" The Haftarah responds: you've been stingy with offerings (43:23–24), but I've been lavish with forgiveness. You measure out your service; I pour out redemption.</p>
+<p>But here is Malachi's answer: the vine will yield fruit, blessing will pour down — and most critically, Elijah is coming. Not to comfort the cynics, but to restore justice: to make visible the distinction between righteous and wicked (3:18). To turn hearts of parents to children — to repair the generational rupture that breeds such despair.</p>
 
-<p>The Seder teaches the same. We don't sip carefully — we pour four cups. We don't wash hands minimally — we pour abundantly. We don't drip out God's wrath — we spill wine.</p>
+<p>The Seder answers Malachi. We set a cup for Elijah. We affirm that redemption is coming even when we cannot see it. We tell the story not because it yields immediate profit, but because the story itself transforms us.</p>
 
-<p>Shabbat Shalom — may we learn to pour, not measure. To lavish, not ration. To slake others' thirst as God pours Spirit on us.</p>
+<p>Cynicism says: the wicked thrive, serving God has no gain. Faith responds: Elijah is coming. Justice will be restored. The vine will bear fruit.</p>
+
+<p><em>Shabbat Shalom and Chag Kasher v'Sameach.</em></p>
 `
   }
 
