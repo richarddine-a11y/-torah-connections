@@ -1,71 +1,67 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Shemini · April 4, 2026
+//  Shabbat Rosh Chodesh Iyar · April 26, 2026
 // ─────────────────────────────────────────────────────────────────
 
 const PUZZLE = {
 
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Parashat Shemini",
-  hebrewWeek: "פָּרָשַׁת שְּׁמִינִי",
-  date:       "6 Nisan 5786  ·  April 4, 2026",
-  parasha:    "Leviticus 9:1–11:47",
-  haftarah:   "2 Samuel 6:1–7:17",
+  week:       "Shabbat Rosh Chodesh",
+  hebrewWeek: "שַׁבָּת רֹאשׁ חֹדֶשׁ",
+  date:       "1 Iyar 5786  ·  April 26, 2026",
+  parasha:    "Tazria-Metzora (Leviticus 12–15)",
+  haftarah:   "Isaiah 66:1–24",
 
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "What David Distributed to the People (2 Samuel 6:19)",
+      name:  "Books Where Rabbis Repeat Penultimate Verse Since Final Verse Is So Negative",
       color: "yellow",
-      words: ["CAKE", "BREAD", "WINE", "BLESSING"],
-      explanation: "2 Samuel 6:19: \"David blessed the people in the name of the LORD and distributed among all the people, the whole multitude of Israel, both men and women, a cake of bread, a portion of meat, and a cake of raisins.\" Everyone — the entire assembly — receives sustenance and blessing. The universality of the distribution is the point."
+      words: ["EICHAH", "ISAIAH", "KOHELET", "MALACHI"],
+      explanation: "A remarkable rabbinic institution: when a biblical book ends on a note too harsh to leave as the final word, the penultimate verse is repeated after the last. Isaiah 66 ends with eternal punishment (v.24); Malachi ends with a curse (3:24); Kohelet ends with judgment (12:14); Eichah ends with near-rejection (5:22). So we circle back — letting the vision of worship, or return, or hope be the last word we read aloud."
     },
     {
-      name:  "David's Celebratory Movements (2 Samuel 6:14–16)",
+      name:  "How Nations Will Bring Offerings (Isaiah 66:20)",
       color: "green",
-      words: ["DANCING", "LEAPING", "SKIPPING", "SACRIFICE"],
-      explanation: "2 Samuel 6:14–16: \"David danced before the LORD with all his might\"; \"King David leaping and dancing before the LORD.\" Throughout the procession (6:13) David also offered sacrifices at every six steps. His worship is total — body, energy, and offering all poured out before God."
+      words: ["HORSES", "MULES", "VESSELS", "WAGONS"],
+      explanation: "Isaiah 66:20: \"They shall bring all your brothers from all the nations as an offering to the LORD — on horses and in chariots and in litters and on mules and on dromedaries.\" The universal pilgrimage arrives by every means of transport. The vision is extravagant: the scattered of Israel returning from the ends of the earth on whatever conveyance the nations can provide."
     },
     {
-      name:  "Michal's Situation (2 Samuel 6:16, 20, 23)",
-      color: "blue",
-      words: ["CHILDLESS", "DAUGHTER", "WIFE", "MOCKER"],
-      explanation: "Three identities and one fate converge in Michal: she is the daughter of Saul (6:16, 23), the wife of David (6:20), and the one who despised and mocked David's dancing (6:16, 20). The result — \"Michal the daughter of Saul had no child to the day of her death\" (6:23) — is the text's final, devastating word on what distance from joy costs."
-    },
-    {
-      name:  "God's Covenant Promises to David (2 Samuel 7:9–16)",
+      name:  "Actions Lovers of God Should Take (Isaiah 66:10–11)",
       color: "purple",
-      words: ["BE WITH", "NAME GREAT", "SUCCESSION", "SAFEGUARD"],
-      explanation: "The Davidic covenant in 2 Samuel 7 unfolds in four movements: divine presence (\"I have been with you,\" v.9), renown (\"I will make for you a great name,\" v.9), dynastic continuity (\"I will raise up your offspring after you,\" v.12), and security (\"I will give rest... from all your enemies,\" v.11). Together they form the theological foundation of the entire Davidic tradition."
+      words: ["BE GLAD", "COMFORTED", "GLORIFY", "REJOICE"],
+      explanation: "Isaiah 66:10–11: \"Rejoice with Jerusalem and be glad for her, all you who love her... that you may nurse and be satisfied from her consoling breast; that you may drink deeply with delight from her glorious abundance.\" The verbs pile up — rejoice, be glad, be comforted, glorify — as Isaiah tries to make the redeemed future feel present, palpable, already underway."
+    },
+    {
+      name:  "How God Will Manifest Himself (Isaiah 66:15–16)",
+      color: "blue",
+      words: ["CHARIOTS", "FIRE", "SWORD", "WHIRLWIND"],
+      explanation: "Isaiah 66:15–16: \"For behold, the LORD will come in fire, and his chariots like the whirlwind, to render his anger in fury... For by fire will the LORD enter into judgment, and by his sword, with all flesh.\" The same God who offers maternal comfort (66:13) and universal worship arrives as consuming judgment. Isaiah refuses to smooth the contradiction."
     }
   ],
 
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "מַה שֶּׁמְּחַלְּקִים",
-    title: "What Gets Distributed — A Dvar Torah on 2 Samuel 6",
+    hebrewTitle: "סוֹפִים שֶׁאֵין אָנוּ יְכוֹלִים לִסְבֹּל",
+    title: "Endings We Cannot Bear — A Dvar Torah on Isaiah 66",
     text: `
-<p>Four things distributed to everyone: <em>cake, bread, wine, blessing.</em></p>
+<p>Four books where we repeat the penultimate verse because the final verse is unbearable: <em>Isaiah, Malachi, Eichah, Kohelet.</em></p>
 
-<p>2 Samuel 6:19: <span class="heb">וַיְחַלֵּק לְכָל-הָעָם לְכָל-הֲמוֹן יִשְׂרָאֵל</span> — "David distributed among all the people, the whole multitude of Israel, both men and women, a cake of bread, a portion of meat, and a cake of raisins." Everyone receives. The entire assembly — men, women, all of Israel — gets sustenance and blessing.</p>
+<p>Isaiah 66:24: <span class="heb">וְיָצְאוּ וְרָאוּ בְּפִגְרֵי הָאֲנָשִׁים הַפֹּשְׁעִים בִּי</span> — "They shall go out and look on the corpses of the men who have rebelled against me. For their worm shall not die, their fire shall not be quenched, and they shall be an abhorrence to all flesh."</p>
 
-<p>Except one person.</p>
+<p>This is how Isaiah ends. With eternal punishment, undying worms, unquenchable fire. So we cheat. We repeat verse 23: <span class="heb">מִדֵּי חֹדֶשׁ בְּחָדְשׁוֹ וּמִדֵּי שַׁבָּת בְּשַׁבַּתּוֹ</span> — "From new moon to new moon, and from Sabbath to Sabbath, all flesh shall come to worship before me."</p>
 
-<p>Michal watches from the window (6:16). She sees David dancing, leaping, skipping before the Ark with abandon. She despises him. When he comes home to bless his household, she mocks: "How the king of Israel honored himself today!" (6:20).</p>
+<p>The puzzle captures the tension. Nations bringing offerings on horses and wagons — universal pilgrimage. The redeemed called to rejoice, be comforted, glorify. But also: fire, sword, whirlwind, chariots of wrath.</p>
 
-<p>David responds: "I will make myself yet more contemptible than this… but by the female servants you mentioned, by them I shall be held in honor" (6:22).</p>
+<p>Isaiah cannot reconcile them. So he ends with both. Perpetual worship <em>and</em> eternal torment. Maternal comfort <em>and</em> consuming judgment. The nations arriving on wagons while fire destroys the wicked.</p>
 
-<p>Then verse 6:23: <span class="heb">וּלְמִיכַל בַּת-שָׁאוּל לֹא-הָיָה לָהּ יָלֶד עַד יוֹם מוֹתָהּ</span> — "Michal the daughter of Saul had no child to the day of her death."</p>
+<p>We cannot live with that ending. So we circle back — let the vision of monthly and weekly worship be the last word.</p>
 
-<p>The contrast is devastating. David distributes cake, bread, wine, and blessing to thousands. But his own wife receives nothing — no child, no future, no succession.</p>
+<p>But here is what haunts: we only need this repetition because Isaiah told the truth. Redemption includes judgment. New moons and Sabbaths of worship exist alongside the reality of those who refuse.</p>
 
-<p>Why? Because she stood apart. Watched from above. Refused to join the unseemly joy. The female servants David mentions? They received the blessing, the bread, the celebration. They were present, not distant. They joined the dance rather than judging it.</p>
+<p>Rosh Chodesh celebrates renewal — the moon reborn. But Isaiah will not let us forget: some renewals require fire.</p>
 
-<p>God promises David: be with, name great, succession, safeguard. But those promises require presence — the willingness to look foolish before God.</p>
-
-<p>Mockery yields childless emptiness. Dancing yields succession.</p>
-
-<p><em>Shabbat Shalom — may we distribute blessing widely and receive it humbly.</em></p>
+<p><em>Chodesh Tov — may we be among those who come "from new moon to new moon" in worship, not among those for whom the fire never ends.</em></p>
 `
   }
 
