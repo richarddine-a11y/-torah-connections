@@ -12,6 +12,9 @@ const PUZZLE = {
   parasha:    "Tazria-Metzora (Leviticus 12–15)",
   haftarah:   "Isaiah 66:1–24",
 
+  // ── Reflection question (remove or set to "" to hide the section) ──
+  reflectionQuestion: "Why in a Haftarah that concludes the whole Book of Isaiah — where God is telling those who love Him some of the actions they should take — does it end on such a negative note that the Rabbis have us repeat the penultimate verse?",
+
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
