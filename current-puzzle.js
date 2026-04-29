@@ -1,85 +1,69 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Acharei Mot - Kedoshim · May 3, 2026
+//  Parashat Emor · May 10, 2026
 // ─────────────────────────────────────────────────────────────────
-
+ 
 const PUZZLE = {
-
+ 
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Parashat Acharei Mot - Kedoshim",
-  hebrewWeek: "פָּרָשַׁת אַחֲרֵי מוֹת - קְדֹשִׁים",
-  date:       "8 Iyar 5786  ·  May 3, 2026",
-  parasha:    "Leviticus 16–20",
-  haftarah:   "Amos 9:7–15",
-
+  week:       "Parashat Emor",
+  hebrewWeek: "פָּרָשַׁת אֱמֹר",
+  date:       "15 Iyar 5786  ·  May 10, 2026",
+  parasha:    "Leviticus 21–24  ·  Hint: Hebrew terms group together",
+  haftarah:   "Ezekiel 44:15–31",
+ 
   // ── Reflection question ───────────────────────────────────────────
-  reflectionQuestion: "Why do you think Hashem is comparing us to the Cushites?",
-
+  reflectionQuestion: "Why does Ezekiel forbid the widow and treif food when the Torah permits the former and already forbids all Jews the latter?",
+ 
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Nations Mentioned",
+      name:  "Prohibitions per Ezekiel (44:21–22)",
       color: "blue",
-      words: ["ARAM", "CUSH", "EDOM", "PILISHTIM"],
-      explanation: "Amos 9:7 names three nations God also redeemed — the Philistines (Pilishtim) from Caphtor, Aram from Kir — placing Israel's Exodus in a broader context of divine providence over all peoples. Cush anchors the famous comparison. Edom appears in the restoration vision (9:12): the fallen booth of David will \"possess the remnant of Edom.\" Together these nations frame Israel's universal yet particular relationship with God."
+      words: ["CORPSES", "SWEATY CLOTHES", "WINE", "WOOL"],
+      explanation: "Ezekiel's vision raises the standard for priestly conduct: no wine before entering the inner court (44:21); no wool garments that cause sweat (44:18); no contact with corpses except for immediate family (44:25); only linen next to the skin. These restrictions go beyond Leviticus — the restored Temple demands a priesthood whose very bodies signal the distinction between holy and common."
     },
     {
-      name:  "God's Positive Promises (Amos 9:11–15)",
+      name:  "Whom a Kohen Can Become Tamei For (Ezekiel 44:25)",
       color: "green",
-      words: ["BUILD", "POSSESS", "RAISE", "RESTORE"],
-      explanation: "The stunning reversal of Amos 9:11–15: God will \"raise up the booth of David,\" \"restore the fortunes of my people Israel,\" \"build\" the ruined cities, and they shall \"possess\" the nations. After eight chapters of devastating judgment, Amos ends with these four verbs of radical reconstruction — suggesting that condemnation and restoration are not opposites but sequential movements of the same divine will."
+      words: ["BROTHER", "CHILD", "PARENT", "UNMARRIED SISTER"],
+      explanation: "Ezekiel 44:25 permits priests to contract corpse-impurity only for father, mother, son, daughter, brother, or unmarried sister. This mirrors Leviticus 21:2–3 almost exactly. The careful limitation — unmarried sister, not married — reflects the principle that a woman who has entered another household belongs to a different primary family unit. The list defines who counts as irreplaceable close kin."
     },
     {
-      name:  "Images of Incredible Prosperity (Amos 9:13–14)",
+      name:  "Gifts to the Kohanim (also Terumot, Arisot) — Hebrew Terms",
       color: "yellow",
-      words: ["DRINK", "DRIP", "MELT", "OVERTAKE"],
-      explanation: "Amos 9:13: \"The plowman shall overtake the reaper, and the treader of grapes him who sows the seed; the mountains shall drip sweet wine, and all the hills shall melt with it.\" The agricultural cycle collapses — harvest comes so fast it overtakes planting. Mountains drip and hills melt with wine. Verse 14 completes it: they shall plant and drink. This is not gentle prosperity; it is abundance so extreme the earth cannot contain it."
+      words: ["אָשָׁם", "בִּכּוּרִים", "חַטָּאת", "מִנְחָה"],
+      explanation: "Ezekiel 44:29–30 lists what the priests receive: the grain offering (מִנְחָה), sin offering (חַטָּאת), guilt offering (אָשָׁם), and first fruits (בִּכּוּרִים), along with terumot and arisot (dough offering). Every dedicated thing in Israel belongs to them. The restored priesthood is supported by the full range of sacred gifts — their sustenance and Israel's atonement are inseparable."
     },
     {
-      name:  "Range of Interpretations of \"Cushite\" in Amos 9:7 per Sefaria.ai",
+      name:  "Forbidden (Even Though Torah Permits Almanah for All but Kohen Gadol) — Hebrew Terms",
       color: "purple",
-      words: ["BELOVED", "EVIL", "UNCHANGING", "UNIQUE"],
-      explanation: "One verse, four readings: Rashi and Radak hear UNCHANGING in EVIL — like Cushites cannot change their skin (Jeremiah 13:23), Israel is fixed in sin. Malbim hears UNIQUE — like Cushites remain recognizable through their appearance, Israel will never assimilate. Ibn Janach (cited in Radak) translates the Aramaic as BELOVED — the comparison is endearment, not rebuke. Same verse. Same image. Radically different readings of what it means to be compared to the Cushites."
+      words: ["אַלְמָנָה", "נְבֵלָה", "טְרֵפָה", "גְּרוּשָׁה"],
+      explanation: "Ezekiel 44:22 forbids all priests from marrying a widow (אַלְמָנָה) or divorcée (גְּרוּשָׁה) — stricter than Leviticus 21, which reserves the widow restriction only for the Kohen Gadol. The carcass (נְבֵלָה) and torn animal (טְרֵפָה) are universally forbidden, yet Ezekiel re-prohibits them explicitly for priests — as if to say: in the restored Temple, nothing that was merely tolerated can be taken for granted."
     }
   ],
-
+ 
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "פָּסוּק אֶחָד, אַרְבַּע קְרִיאוֹת",
-    title: "One Verse, Four Readings — A Dvar Torah on Amos 9:7",
+    hebrewTitle: "מַחְמִיר מִן הַתּוֹרָה",
+    title: "Stricter Than Torah — A Dvar Torah on Ezekiel 44",
     text: `
-<p>Four interpretations of one verse: <em>unchanging, unique, beloved, evil.</em></p>
-
-<p>Amos 9:7: <span class="heb">הֲלוֹא כִבְנֵי כֻשִׁיִּים אַתֶּם לִי בְּנֵי יִשְׂרָאֵל</span> — "Are you not like the Cushites to me, O people of Israel?"</p>
-
-<p>Rashi hears condemnation: like Cushites cannot change their skin (Jeremiah 13:23), you are unchanging in evil. Fixed in sin, incapable of repentance. Malbim hears comfort: like Cushites remain unique and recognizable through their appearance, you will never assimilate — eternally distinct, permanently God's people. Ibn Janach hears affection: the Aramaic suggests beloved. This comparison is endearment, not rebuke.</p>
-
-<p>Same verse. Same Cushite comparison. Radically different readings.</p>
-
-<p>Here is what's brilliant: Amos 9 needs all four interpretations to work. Verses 7–10 are harsh — Israel is like every other nation, Aram and Pilishtim brought up from their lands too. Unchanging in evil. The sinful kingdom will be destroyed. But verses 11–15 reverse everything: restore, raise, build, possess. The plowman will overtake the reaper, mountains drip wine, hills melt with abundance.</p>
-
-<p>How do we get from evil and unchanging to beloved and unique? The text doesn't explain. It just pivots. Judgment becomes restoration. The same people condemned as unchangeable sinners become the eternally distinct treasured nation.</p>
-
-<p>Perhaps that's the deepest reading: we are all four simultaneously. Unchanging in our capacity for evil. Unique in our covenant relationship. Beloved despite everything. And precisely because we're beloved while still evil — that's when restore, raise, and build become possible.</p>
-
-<p>The Cushite comparison contains the whole dialectic: condemnation and comfort, judgment and hope, fixed nature and radical transformation.</p>
-
-<p><em>Shabbat Shalom.</em></p>
-
-<hr style="border:none;border-top:1px solid var(--parchment-dark);margin:1.4rem 0;">
-
-<p style="font-family:'Cinzel',serif;font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--wine);opacity:0.75;margin-bottom:0.8rem;">Range of Interpretations of "Cushite" in Amos 9:7 · per Sefaria.ai</p>
-
-<p><strong>Rashi on Amos 9:7</strong> — Compares Israel to Cushites who cannot change, citing Jeremiah 13:23: "Will a Cushite change his skin…? So will you be able to improve." The comparison emphasizes Israel's stubborn persistence in sin.</p>
-
-<p><strong>Radak on Amos 9:7</strong> — Presents multiple views, including the interpretation that like Cushites who are unchangeable in their skin color, Israel is unchangeable in their evil ways.</p>
-
-<p><strong>Malbim on Amos 9:7</strong> — Views "Cushite" as a compliment: "You are distinguished like the sons of the Cushites who are marked and recognizable always and unique to their ancestors through the blackness of their skin." Even in exile among nations, Cushites remain distinct; similarly, Israel will never assimilate and will always be recognizable as God's people.</p>
-
-<p><strong>Ibn Janach</strong> (quoted in Radak) — Translates the Aramaic as "beloved," suggesting an endearing comparison.</p>
-
-<p><strong>Abarbanel on Amos 9:7</strong> — Explains that Cushites (descendants of Ham) were cursed to eternal servitude. Israel is likewise God's eternal servants, acquired in the Exodus — establishing an unbreakable covenant relationship that distinguishes them from other nations.</p>
+<p>Four words forbidden to priests in Ezekiel: <span class="heb">נְבֵלָה, טְרֵפָה, אַלְמָנָה, גְּרוּשָׁה</span> — carcass, torn animal, widow, divorcée.</p>
+ 
+<p>Here is what's radical: three of these are universally forbidden. <span class="heb">נְבֵלָה</span> and <span class="heb">טְרֵפָה</span> — nobody eats these. <span class="heb">גְּרוּשָׁה</span> — no priest marries her. But <span class="heb">אַלְמָנָה</span>, widow — that's permitted. Leviticus 21:7 forbids regular priests from marrying only a woman profaned by harlotry or divorced. The widow restriction applies only to the Kohen Gadol (Leviticus 21:14).</p>
+ 
+<p>Ezekiel 44:22? All priests. No exceptions. Ezekiel's Temple is stricter than Torah.</p>
+ 
+<p>Why? Because Ezekiel is describing restoration after catastrophic failure. The Temple was destroyed. The priesthood failed. Wool garments caused sweat; priests drank wine before service; they didn't teach the difference between holy and common, clean and unclean.</p>
+ 
+<p>So the vision of return raises the bar. What was permitted becomes forbidden. What was tolerable becomes inadequate.</p>
+ 
+<p>This is the paradox of restoration: it cannot simply return to what was. The old normal produced destruction. So the new normal requires <span class="heb">בִּכּוּרִים, מִנְחָה, חַטָּאת, אָשָׁם</span> offered with greater precision. Priests who become impure only for parent, child, brother, unmarried sister. Who avoid even permitted widows.</p>
+ 
+<p>Emor gives us practical holiness — what's required now. Ezekiel gives us aspirational holiness — what's required after we've failed and are rebuilding.</p>
+ 
+<p><em>Shabbat Shalom — may we understand that restoration always demands more than preservation ever did.</em></p>
 `
   }
-
+ 
 };
