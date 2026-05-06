@@ -1,68 +1,72 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Emor · May 10, 2026
+//  Parashat Behar-Bechukotai · May 17, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Parashat Emor",
-  hebrewWeek: "פָּרָשַׁת אֱמֹר",
-  date:       "15 Iyar 5786  ·  May 10, 2026",
-  parasha:    "Leviticus 21–24  ·  Hint: Hebrew terms group together",
-  haftarah:   "Ezekiel 44:15–31",
+  week:       "Parashat Behar-Bechukotai",
+  hebrewWeek: "פָּרָשַׁת בְּהַר - בְּחֻקֹּתַי",
+  date:       "22 Iyar 5786  ·  May 17, 2026",
+  parasha:    "Leviticus 25–27",
+  haftarah:   "Jeremiah 16:19–17:14",
  
   // ── Reflection question ───────────────────────────────────────────
-  reflectionQuestion: "Why does Ezekiel forbid the widow and treif food when the Torah permits the former and already forbids all Jews the latter?",
+  reflectionQuestion: "Given Jeremiah's confidence with his tree metaphor, how would he answer the classic question of צַדִּיק וְרַע לוֹ — why do the righteous suffer?",
  
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Prohibitions per Ezekiel (44:21–22)",
+      name:  "Jeremiah's Descriptions of Hashem (16:19–21)",
       color: "blue",
-      words: ["CORPSES", "SWEATY CLOTHES", "WINE", "WOOL"],
-      explanation: "Ezekiel's vision raises the standard for priestly conduct: no wine before entering the inner court (44:21); no wool garments that cause sweat (44:18); no contact with corpses except for immediate family (44:25); only linen next to the skin. These restrictions go beyond Leviticus — the restored Temple demands a priesthood whose very bodies signal the distinction between holy and common."
+      words: ["MIGHTY", "REFUGE", "STRENGTH", "STRONGHOLD"],
+      explanation: "Jeremiah 16:19–21: \"O LORD, my strength and my stronghold, and my refuge in the day of distress.\" The passage opens with a cascade of divine names — strength, stronghold, refuge, mighty — as Jeremiah anticipates the nations streaming toward God in recognition that their idols were worthless. These are not abstract attributes but relational ones: God is these things specifically for those who turn toward Him."
     },
     {
-      name:  "Whom a Kohen Can Become Tamei For (Ezekiel 44:25)",
+      name:  "Tree Metaphor for Those Who Trust in People Rather Than God (17:5–6)",
       color: "green",
-      words: ["BROTHER", "CHILD", "PARENT", "UNMARRIED SISTER"],
-      explanation: "Ezekiel 44:25 permits priests to contract corpse-impurity only for father, mother, son, daughter, brother, or unmarried sister. This mirrors Leviticus 21:2–3 almost exactly. The careful limitation — unmarried sister, not married — reflects the principle that a woman who has entered another household belongs to a different primary family unit. The list defines who counts as irreplaceable close kin."
+      words: ["DRY", "SALT", "SEE NO GOOD", "STUNTED"],
+      explanation: "Jeremiah 17:6: \"He shall be like a shrub in the desert and shall not see when good comes — he shall dwell in the parched places of the wilderness, in an uninhabited salt land.\" The cursed man is not deprived of good — he cannot perceive it. Dry, salt, stunted, unable to see good even when it arrives: the curse is perceptual blindness, not mere circumstantial deprivation."
     },
     {
-      name:  "Gifts to the Kohanim (also Terumot, Arisot) — Hebrew Terms",
+      name:  "Tree Metaphor for Those Who Trust in Hashem (17:7–8)",
       color: "yellow",
-      words: ["אָשָׁם", "בִּכּוּרִים", "חַטָּאת", "מִנְחָה"],
-      explanation: "Ezekiel 44:29–30 lists what the priests receive: the grain offering (מִנְחָה), sin offering (חַטָּאת), guilt offering (אָשָׁם), and first fruits (בִּכּוּרִים), along with terumot and arisot (dough offering). Every dedicated thing in Israel belongs to them. The restored priesthood is supported by the full range of sacred gifts — their sustenance and Israel's atonement are inseparable."
+      words: ["FRUITFUL", "GREEN", "ROOTED", "WATERED"],
+      explanation: "Jeremiah 17:7–8: \"Blessed is the man who trusts in the LORD... He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes, for its leaves remain green.\" The blessed tree is rooted, watered, stays green even in drought, and bears fruit. Same heat, same world — but the orientation toward the divine source transforms how everything is received."
     },
     {
-      name:  "Forbidden (Even Though Torah Permits Almanah for All but Kohen Gadol) — Hebrew Terms",
+      name:  "Definition of Koré in Verse 17:11 (Félix says it's a Partridge Who Brooding Over Too Many Eggs Fails to Have Any Hatch)",
       color: "purple",
-      words: ["אַלְמָנָה", "נְבֵלָה", "טְרֵפָה", "גְּרוּשָׁה"],
-      explanation: "Ezekiel 44:22 forbids all priests from marrying a widow (אַלְמָנָה) or divorcée (גְּרוּשָׁה) — stricter than Leviticus 21, which reserves the widow restriction only for the Kohen Gadol. The carcass (נְבֵלָה) and torn animal (טְרֵפָה) are universally forbidden, yet Ezekiel re-prohibits them explicitly for priests — as if to say: in the restored Temple, nothing that was merely tolerated can be taken for granted."
+      words: ["CUCKOO", "HEN", "PARTRIDGE", "PHEASANT"],
+      explanation: "Jeremiah 17:11 compares the man who gathers wealth unjustly to a koré (קֹרֵא) that broods over eggs it did not lay — and loses them all at midlife. Commentators have debated for centuries which bird is meant: partridge (Rashi, most traditional), pheasant, hen, or cuckoo. The zoologist Félix identified it as a partridge that broods over too many eggs and hatches none. Whatever the bird, the point is precise: gathering what you didn't produce leads to losing everything."
     }
   ],
  
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "מַחְמִיר מִן הַתּוֹרָה",
-    title: "Stricter Than Torah — A Dvar Torah on Ezekiel 44",
+    hebrewTitle: "לֹא יִרְאֶה כִּי יָבוֹא טוֹב",
+    title: "See No Good — A Dvar Torah on Jeremiah 17",
     text: `
-<p>Four words forbidden to priests in Ezekiel: <span class="heb">נְבֵלָה, טְרֵפָה, אַלְמָנָה, גְּרוּשָׁה</span> — carcass, torn animal, widow, divorcée.</p>
+<p>Two trees. Two outcomes: <em>rooted, watered, green, fruitful</em> — or — <em>dry, salt, see no good, stunted.</em></p>
  
-<p>Here is what's radical: three of these are universally forbidden. <span class="heb">נְבֵלָה</span> and <span class="heb">טְרֵפָה</span> — nobody eats these. <span class="heb">גְּרוּשָׁה</span> — no priest marries her. But <span class="heb">אַלְמָנָה</span>, widow — that's permitted. Leviticus 21:7 forbids regular priests from marrying only a woman profaned by harlotry or divorced. The widow restriction applies only to the Kohen Gadol (Leviticus 21:14).</p>
+<p>Jeremiah 17:6 about the cursed man: <span class="heb">וְלֹא יִרְאֶה כִּי-יָבוֹא טוֹב וְשָׁכַן חֲרֵרִים בַּמִּדְבָּר</span> — "He shall not see when good comes, but shall dwell in the parched places in the wilderness, in an uninhabited salt land."</p>
  
-<p>Ezekiel 44:22? All priests. No exceptions. Ezekiel's Temple is stricter than Torah.</p>
+<p>Not "good won't come." Good <em>will</em> come — but he won't see it.</p>
  
-<p>Why? Because Ezekiel is describing restoration after catastrophic failure. The Temple was destroyed. The priesthood failed. Wool garments caused sweat; priests drank wine before service; they didn't teach the difference between holy and common, clean and unclean.</p>
+<p>This is the cruelest curse. Not deprivation, but blindness to blessing. The rain falls on everyone. The cursed man stands in dry salt land while the blessed stands watered and green — but they occupy the same world. The difference isn't external circumstance. It's perception.</p>
  
-<p>So the vision of return raises the bar. What was permitted becomes forbidden. What was tolerable becomes inadequate.</p>
+<p>"Cursed is the man who trusts in man and makes flesh his strength, whose heart turns away from the LORD" (17:5). When you trust only flesh — tangible, controllable, immediate — you lose the capacity to perceive intangible blessing. You become stunted, unable to recognize what cannot be measured or manipulated.</p>
  
-<p>This is the paradox of restoration: it cannot simply return to what was. The old normal produced destruction. So the new normal requires <span class="heb">בִּכּוּרִים, מִנְחָה, חַטָּאת, אָשָׁם</span> offered with greater precision. Priests who become impure only for parent, child, brother, unmarried sister. Who avoid even permitted widows.</p>
+<p>Meanwhile: strength, stronghold, refuge, mighty — God offers these. But only to those whose trust creates the perceptual framework to receive them.</p>
  
-<p>Emor gives us practical holiness — what's required now. Ezekiel gives us aspirational holiness — what's required after we've failed and are rebuilding.</p>
+<p>Bechukotai's blessings and curses work the same way. <span class="heb">וּפָנִיתִי אֲלֵיכֶם</span> — "I will turn toward you" (Lev. 26:9) — versus <span class="heb">וְנָתַתִּי פָנַי בָּכֶם</span> — "I will set my face against you" (26:17). Same God. Different perception based on the relationship.</p>
  
-<p><em>Shabbat Shalom — may we understand that restoration always demands more than preservation ever did.</em></p>
+<p>The blessed tree isn't fruitful because it received more water. It is rooted by water because it oriented itself toward the source. Its leaves stay green because "it does not fear when heat comes" (17:8) — same heat, different response.</p>
+ 
+<p>Partridge, cuckoo, hen, pheasant — commentators cannot agree which bird Jeremiah meant by <span class="heb">קֹרֵא</span>. But they agree on the point: gathering what you did not produce leads to blindness. The unjust man collects eggs he did not lay, and loses them all at midlife.</p>
+ 
+<p><em>Shabbat Shalom — may we see good when it comes.</em></p>
 `
   }
  
