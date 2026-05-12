@@ -1,72 +1,70 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Behar-Bechukotai · May 17, 2026
+//  Machar Chodesh · Parashat Bamidbar · May 23, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Parashat Behar-Bechukotai",
-  hebrewWeek: "פָּרָשַׁת בְּהַר - בְּחֻקֹּתַי",
-  date:       "22 Iyar 5786  ·  May 17, 2026",
-  parasha:    "Leviticus 25–27",
-  haftarah:   "Jeremiah 16:19–17:14",
+  week:       "Machar Chodesh · Parashat Bamidbar",
+  hebrewWeek: "מָחָר חֹדֶשׁ · פָּרָשַׁת בְּמִדְבַּר",
+  date:       "29 Iyar 5786  ·  May 16, 2026",
+  parasha:    "Numbers 1–4  ·  Hint: All groups are Hebrew terms",
+  haftarah:   "1 Samuel 20:18–42 (Machar Chodesh) · Hosea 2:1–22 (Bamidbar)",
  
   // ── Reflection question ───────────────────────────────────────────
-  reflectionQuestion: "Given Jeremiah's confidence with his tree metaphor, how would he answer the classic question of צַדִּיק וְרַע לוֹ — why do the righteous suffer?",
+  reflectionQuestion: "Saul was right that David threatened Jonathan's right to kingship — so why did Jonathan love David so much?",
  
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Jeremiah's Descriptions of Hashem (16:19–21)",
-      color: "blue",
-      words: ["MIGHTY", "REFUGE", "STRENGTH", "STRONGHOLD"],
-      explanation: "Jeremiah 16:19–21: \"O LORD, my strength and my stronghold, and my refuge in the day of distress.\" The passage opens with a cascade of divine names — strength, stronghold, refuge, mighty — as Jeremiah anticipates the nations streaming toward God in recognition that their idols were worthless. These are not abstract attributes but relational ones: God is these things specifically for those who turn toward Him."
-    },
-    {
-      name:  "Tree Metaphor for Those Who Trust in People Rather Than God (17:5–6)",
-      color: "green",
-      words: ["DRY", "SALT", "SEE NO GOOD", "STUNTED"],
-      explanation: "Jeremiah 17:6: \"He shall be like a shrub in the desert and shall not see when good comes — he shall dwell in the parched places of the wilderness, in an uninhabited salt land.\" The cursed man is not deprived of good — he cannot perceive it. Dry, salt, stunted, unable to see good even when it arrives: the curse is perceptual blindness, not mere circumstantial deprivation."
-    },
-    {
-      name:  "Tree Metaphor for Those Who Trust in Hashem (17:7–8)",
+      name:  "Associated with Time (1 Samuel 20)",
       color: "yellow",
-      words: ["FRUITFUL", "GREEN", "ROOTED", "WATERED"],
-      explanation: "Jeremiah 17:7–8: \"Blessed is the man who trusts in the LORD... He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes, for its leaves remain green.\" The blessed tree is rooted, watered, stays green even in drought, and bears fruit. Same heat, same world — but the orientation toward the divine source transforms how everything is received."
+      words: ["עַד־עוֹלָם", "מָחָר חֹדֶשׁ", "וְשִׁלַּשְׁתָּ", "גַּם־תְּמוֹל גַּם־הַיּוֹם"],
+      explanation: "Time frames saturate the Machar Chodesh story: מָחָר חֹדֶשׁ (tomorrow is the new moon, v.18) sets the crisis; וְשִׁלַּשְׁתָּ (on the third day, v.19) marks David's hiding; גַּם־תְּמוֹל גַּם־הַיּוֹם (yesterday and today, v.27) is Saul's suspicious question about David's absence; and עַד־עוֹלָם (forever, v.42) is the covenant's horizon — the oath that transcends every immediate danger."
     },
     {
-      name:  "Definition of Koré in Verse 17:11 (Félix says it's a Partridge Who Brooding Over Too Many Eggs Fails to Have Any Hatch)",
+      name:  "Associated with the Arrow Test (1 Samuel 20)",
+      color: "green",
+      words: ["לְמַטָּרָה", "וָהָלְאָה", "וָהֵנָּה", "לְהַעֲבִירוֹ"],
+      explanation: "Jonathan devises an arrow code to warn David without being seen: he will shoot toward a לְמַטָּרָה (target, v.20), then send his boy to retrieve them. If he calls וָהֵנָּה (hither — come here, v.21), David is safe. If he calls וָהָלְאָה (beyond — go farther, v.22), David must flee. לְהַעֲבִירוֹ (to pass it on, v.36) is the retrieval instruction. An entire escape plan encoded in the geometry of archery."
+    },
+    {
+      name:  "Insults Hurled by Saul (1 Samuel 20:30–31)",
+      color: "blue",
+      words: ["בֶּן־נַעֲוַת הַמַּרְדּוּת", "בֶן־מָוֶת", "לְבׇשְׁתְּךָ", "הִכְלִימוֹ"],
+      explanation: "When Jonathan defends David, Saul erupts: בֶּן־נַעֲוַת הַמַּרְדּוּת (son of a perverse, rebellious woman, v.30) — attacking Jonathan's character through his mother. לְבׇשְׁתְּךָ (to your shame, v.30) and הִכְלִימוֹ (to shame him, v.34) show Saul weaponizing humiliation. And בֶן־מָוֶת (son of death, v.31) is his verdict on David. Saul's rage is not irrational — he understands exactly what Jonathan's loyalty to David costs the dynasty."
+    },
+    {
+      name:  "The Promise from Verse 42",
       color: "purple",
-      words: ["CUCKOO", "HEN", "PARTRIDGE", "PHEASANT"],
-      explanation: "Jeremiah 17:11 compares the man who gathers wealth unjustly to a koré (קֹרֵא) that broods over eggs it did not lay — and loses them all at midlife. Commentators have debated for centuries which bird is meant: partridge (Rashi, most traditional), pheasant, hen, or cuckoo. The zoologist Félix identified it as a partridge that broods over too many eggs and hatches none. Whatever the bird, the point is precise: gathering what you didn't produce leads to losing everything."
+      words: ["נִשְׁבַּעְנוּ", "יְהֹוָה יִהְיֶה", "וּבֵינֶךָ", "זַרְעִי"],
+      explanation: "The farewell oath of 1 Samuel 20:42 in four pieces: נִשְׁבַּעְנוּ (we have sworn) — the act; יְהֹוָה יִהְיֶה (the LORD will be) — the witness; וּבֵינֶךָ (between you) — the relational scope; זַרְעִי (my offspring) — the generational reach. The covenant is not merely between Jonathan and David but extends to their children. It is this oath that David honors decades later when he seeks out Mephiboshet, Jonathan's disabled son, and restores Saul's estates to him."
     }
   ],
  
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "לֹא יִרְאֶה כִּי יָבוֹא טוֹב",
-    title: "See No Good — A Dvar Torah on Jeremiah 17",
+    hebrewTitle: "שְׁתֵּי בְּרִיתוֹת, הַבְטָחָה אַחַת",
+    title: "Two Covenants, One Promise",
     text: `
-<p>Two trees. Two outcomes: <em>rooted, watered, green, fruitful</em> — or — <em>dry, salt, see no good, stunted.</em></p>
+<p>This Shabbat carries two haftarot: the Machar Chodesh reading from 1 Samuel 20, and the regular haftarah for Bamidbar from Hosea 2. Read together, they speak the same language.</p>
  
-<p>Jeremiah 17:6 about the cursed man: <span class="heb">וְלֹא יִרְאֶה כִּי-יָבוֹא טוֹב וְשָׁכַן חֲרֵרִים בַּמִּדְבָּר</span> — "He shall not see when good comes, but shall dwell in the parched places in the wilderness, in an uninhabited salt land."</p>
+<p>Hosea 2 gives God's betrothal terms: righteousness, steadfast love, mercy, justice, faithfulness — <span class="heb">וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם</span>, "I will betroth you to me forever." The covenant includes material restoration — grain, wine, wool, oil — but its core is relational: fidelity chosen against all the evidence.</p>
  
-<p>Not "good won't come." Good <em>will</em> come — but he won't see it.</p>
+<p>1 Samuel 20:42 gives Jonathan and David's farewell oath in four fragments: <span class="heb">נִשְׁבַּעְנוּ</span> (we have sworn) — <span class="heb">יְהֹוָה יִהְיֶה</span> (the LORD will be) — <span class="heb">וּבֵינֶךָ</span> (between you) — <span class="heb">זַרְעִי</span> (my offspring). Forever loyalty. Everything at stake.</p>
  
-<p>This is the cruelest curse. Not deprivation, but blindness to blessing. The rain falls on everyone. The cursed man stands in dry salt land while the blessed stands watered and green — but they occupy the same world. The difference isn't external circumstance. It's perception.</p>
+<p>Saul sees the situation clearly: <span class="heb">בֶּן־נַעֲוַת הַמַּרְדּוּת</span> — son of a rebellious woman — he screams at Jonathan. <span class="heb">בֶן־מָוֶת</span> — son of death — his verdict on David. Saul is not wrong that David threatens the dynasty. Jonathan knows this too. He chooses covenant anyway.</p>
  
-<p>"Cursed is the man who trusts in man and makes flesh his strength, whose heart turns away from the LORD" (17:5). When you trust only flesh — tangible, controllable, immediate — you lose the capacity to perceive intangible blessing. You become stunted, unable to recognize what cannot be measured or manipulated.</p>
+<p>What connects the two haftarot? Both covenants require choosing relationship over security. Israel must trust God for grain and wine instead of turning to Baal. Jonathan must trust that <span class="heb">יְהֹוָה יִהְיֶה</span> — "the LORD will be" — between them, even when that costs him everything tangible.</p>
  
-<p>Meanwhile: strength, stronghold, refuge, mighty — God offers these. But only to those whose trust creates the perceptual framework to receive them.</p>
+<p>The arrow code captures it. <span class="heb">וָהָלְאָה</span> — beyond. Will you go beyond what is safe? Will you trust the promise <span class="heb">עַד־עוֹלָם</span> — forever — when forever looks impossible?</p>
  
-<p>Bechukotai's blessings and curses work the same way. <span class="heb">וּפָנִיתִי אֲלֵיכֶם</span> — "I will turn toward you" (Lev. 26:9) — versus <span class="heb">וְנָתַתִּי פָנַי בָּכֶם</span> — "I will set my face against you" (26:17). Same God. Different perception based on the relationship.</p>
+<p>Both haftarot answer: yes. Covenant demands it. Faithfulness requires it. Forever depends on it.</p>
  
-<p>The blessed tree isn't fruitful because it received more water. It is rooted by water because it oriented itself toward the source. Its leaves stay green because "it does not fear when heat comes" (17:8) — same heat, different response.</p>
+<p>And the oath endures. Decades later, David asks: <span class="heb">הֲכִי נִשְׁאַר אִישׁ לְבֵית שָׁאוּל</span> — is there anyone left of Saul's house? He finds Mephiboshet, Jonathan's disabled son, and restores everything. <span class="heb">זַרְעִי</span> — my offspring — Jonathan had said. David remembered.</p>
  
-<p>Partridge, cuckoo, hen, pheasant — commentators cannot agree which bird Jeremiah meant by <span class="heb">קֹרֵא</span>. But they agree on the point: gathering what you did not produce leads to blindness. The unjust man collects eggs he did not lay, and loses them all at midlife.</p>
- 
-<p><em>Shabbat Shalom — may we see good when it comes.</em></p>
+<p><em>Shabbat Shalom and Chodesh Tov — may we be people who remember our promises.</em></p>
 `
   }
  
