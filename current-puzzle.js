@@ -1,70 +1,70 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Machar Chodesh · Parashat Bamidbar · May 23, 2026
+//  Shavuot Day 2 · June 2, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
   // ── Header info ──────────────────────────────────────────────────
-  week:       "Machar Chodesh · Parashat Bamidbar",
-  hebrewWeek: "מָחָר חֹדֶשׁ · פָּרָשַׁת בְּמִדְבַּר",
-  date:       "29 Iyar 5786  ·  May 16, 2026",
-  parasha:    "Numbers 1–4  ·  Hint: All groups are Hebrew terms",
-  haftarah:   "1 Samuel 20:18–42 (Machar Chodesh) · Hosea 2:1–22 (Bamidbar)",
+  week:       "Shavuot Day 2",
+  hebrewWeek: "שָׁבוּעוֹת יוֹם שֵׁנִי",
+  date:       "7 Sivan 5786  ·  June 2, 2026",
+  parasha:    "Deuteronomy 15:19–16:17",
+  haftarah:   "Habakkuk 2:20–3:19",
  
   // ── Reflection question ───────────────────────────────────────────
-  reflectionQuestion: "Saul was right that David threatened Jonathan's right to kingship — so why did Jonathan love David so much?",
+  reflectionQuestion: "The Navi says he will delight in Hashem even if the crops fail and the flock dies. Would you be able to rejoice with Hashem in such difficult circumstances?",
  
   // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Associated with Time (1 Samuel 20)",
+      name:  "Divine Locations / Places of Theophany",
       color: "yellow",
-      words: ["עַד־עוֹלָם", "מָחָר חֹדֶשׁ", "וְשִׁלַּשְׁתָּ", "גַּם־תְּמוֹל גַּם־הַיּוֹם"],
-      explanation: "Time frames saturate the Machar Chodesh story: מָחָר חֹדֶשׁ (tomorrow is the new moon, v.18) sets the crisis; וְשִׁלַּשְׁתָּ (on the third day, v.19) marks David's hiding; גַּם־תְּמוֹל גַּם־הַיּוֹם (yesterday and today, v.27) is Saul's suspicious question about David's absence; and עַד־עוֹלָם (forever, v.42) is the covenant's horizon — the oath that transcends every immediate danger."
+      words: ["TEMAN", "PARAN", "PALACE", "HOREB"],
+      explanation: "Habakkuk 3:3: \"God came from Teman, and the Holy One from Mount Paran\" — echoing the Sinai theophany. Horeb is Sinai's alternate name, present in the storm-imagery throughout the chapter. And 2:20: \"the LORD is in his holy temple\" (palace) — the divine dwelling from which He goes forth in power. These are the coordinates of divine presence: where God appears, where He dwells, where He was first revealed."
     },
     {
-      name:  "Associated with the Arrow Test (1 Samuel 20)",
+      name:  "Agricultural Failures (Habakkuk 3:17)",
       color: "green",
-      words: ["לְמַטָּרָה", "וָהָלְאָה", "וָהֵנָּה", "לְהַעֲבִירוֹ"],
-      explanation: "Jonathan devises an arrow code to warn David without being seen: he will shoot toward a לְמַטָּרָה (target, v.20), then send his boy to retrieve them. If he calls וָהֵנָּה (hither — come here, v.21), David is safe. If he calls וָהָלְאָה (beyond — go farther, v.22), David must flee. לְהַעֲבִירוֹ (to pass it on, v.36) is the retrieval instruction. An entire escape plan encoded in the geometry of archery."
+      words: ["BLOSSOM", "CATTLE", "FRUIT", "OLIVE CROP"],
+      explanation: "Habakkuk 3:17: \"Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food, the flock be cut off from the fold and there be no herd in the stalls.\" Everything Shavuot celebrates — firstfruits, harvest, agricultural abundance — stripped away. Blossom fails, fruit disappears, olive crop produces nothing, cattle vanish. This is the verse that makes verse 18 so astonishing."
     },
     {
-      name:  "Insults Hurled by Saul (1 Samuel 20:30–31)",
+      name:  "Divine Actions of Power (Habakkuk 3)",
       color: "blue",
-      words: ["בֶּן־נַעֲוַת הַמַּרְדּוּת", "בֶן־מָוֶת", "לְבׇשְׁתְּךָ", "הִכְלִימוֹ"],
-      explanation: "When Jonathan defends David, Saul erupts: בֶּן־נַעֲוַת הַמַּרְדּוּת (son of a perverse, rebellious woman, v.30) — attacking Jonathan's character through his mother. לְבׇשְׁתְּךָ (to your shame, v.30) and הִכְלִימוֹ (to shame him, v.34) show Saul weaponizing humiliation. And בֶן־מָוֶת (son of death, v.31) is his verdict on David. Saul's rage is not irrational — he understands exactly what Jonathan's loyalty to David costs the dynasty."
+      words: ["SHAKE", "SHATTER", "SPLIT", "TREMBLE"],
+      explanation: "Habakkuk 3 is a theophany of overwhelming force: mountains tremble at God's march (3:10), nations shake (3:6), God shatters the wicked (3:13–14), rivers split the earth open (3:9). The same God who appears in Teman and Paran also convulses the physical world. The prophet isn't describing a gentle encounter — he describes knees buckling and lips quivering (3:16) at the approach of the divine."
     },
     {
-      name:  "The Promise from Verse 42",
+      name:  "Literary / Textual Terms Describing How Habakkuk 3 Is Written",
       color: "purple",
-      words: ["נִשְׁבַּעְנוּ", "יְהֹוָה יִהְיֶה", "וּבֵינֶךָ", "זַרְעִי"],
-      explanation: "The farewell oath of 1 Samuel 20:42 in four pieces: נִשְׁבַּעְנוּ (we have sworn) — the act; יְהֹוָה יִהְיֶה (the LORD will be) — the witness; וּבֵינֶךָ (between you) — the relational scope; זַרְעִי (my offspring) — the generational reach. The covenant is not merely between Jonathan and David but extends to their children. It is this oath that David honors decades later when he seeks out Mephiboshet, Jonathan's disabled son, and restores Saul's estates to him."
+      words: ["METAPHOR", "POETRY", "PRAYER", "PSALMS"],
+      explanation: "A meta-textual category: Habakkuk 3:1 opens with \"A prayer of Habakkuk the prophet\" — explicitly labeled PRAYER. The chapter is structured like PSALMS, complete with the term Selah (3:3, 9, 13) found throughout Tehillim. It is written in biblical POETRY with parallel structure throughout. And it is saturated with METAPHOR — God as warrior, light as rays from His hand, rivers splitting at His command. The form is inseparable from the message."
     }
   ],
  
   // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "שְׁתֵּי בְּרִיתוֹת, הַבְטָחָה אַחַת",
-    title: "Two Covenants, One Promise",
+    hebrewTitle: "כְּשֶׁהַקָּצִיר נִכְשָׁל",
+    title: "When the Harvest Fails — A Shavuot Dvar Torah",
     text: `
-<p>This Shabbat carries two haftarot: the Machar Chodesh reading from 1 Samuel 20, and the regular haftarah for Bamidbar from Hosea 2. Read together, they speak the same language.</p>
+<p>Shavuot is Chag HaBikkurim, Chag HaKatzir — the festival of firstfruits, the celebration of harvest. Grapes and figs ripen. We feast on wheat and dairy. The whole holiday assumes abundance.</p>
  
-<p>Hosea 2 gives God's betrothal terms: righteousness, steadfast love, mercy, justice, faithfulness — <span class="heb">וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם</span>, "I will betroth you to me forever." The covenant includes material restoration — grain, wine, wool, oil — but its core is relational: fidelity chosen against all the evidence.</p>
+<p>Then we read Habakkuk 3:17: <span class="heb">כִּי-תְאֵנָה לֹא-תִפְרָח וְאֵין יְבוּל בַּגְּפָנִים</span> — "Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail... the flock be cut off from the fold and there be no herd in the stalls."</p>
  
-<p>1 Samuel 20:42 gives Jonathan and David's farewell oath in four fragments: <span class="heb">נִשְׁבַּעְנוּ</span> (we have sworn) — <span class="heb">יְהֹוָה יִהְיֶה</span> (the LORD will be) — <span class="heb">וּבֵינֶךָ</span> (between you) — <span class="heb">זַרְעִי</span> (my offspring). Forever loyalty. Everything at stake.</p>
+<p>Everything Shavuot celebrates — gone. Blossom fails. Fruit disappears. Olive crop produces nothing. Cattle vanish.</p>
  
-<p>Saul sees the situation clearly: <span class="heb">בֶּן־נַעֲוַת הַמַּרְדּוּת</span> — son of a rebellious woman — he screams at Jonathan. <span class="heb">בֶן־מָוֶת</span> — son of death — his verdict on David. Saul is not wrong that David threatens the dynasty. Jonathan knows this too. He chooses covenant anyway.</p>
+<p>Verse 18: <span class="heb">וַאֲנִי בַּיהֹוָה אֶעְלוֹזָה</span> — "Yet I will rejoice in the LORD."</p>
  
-<p>What connects the two haftarot? Both covenants require choosing relationship over security. Israel must trust God for grain and wine instead of turning to Baal. Jonathan must trust that <span class="heb">יְהֹוָה יִהְיֶה</span> — "the LORD will be" — between them, even when that costs him everything tangible.</p>
+<p>This is Shavuot's deepest teaching. Yes, we celebrate with firstfruits and harvest when they come. We mark abundance gratefully. But the covenant does not depend on the harvest succeeding.</p>
  
-<p>The arrow code captures it. <span class="heb">וָהָלְאָה</span> — beyond. Will you go beyond what is safe? Will you trust the promise <span class="heb">עַד־עוֹלָם</span> — forever — when forever looks impossible?</p>
+<p>Ezekiel saw the divine chariot in Babylonian exile — wheels, sapphire, fire, rainbow — when the Temple was destroyed and abundance was memory. Habakkuk wrote when agriculture was failing and God seemed absent. Both responded with prayer, psalms, poetry, and metaphor: finding language to meet God even when material blessing had disappeared.</p>
  
-<p>Both haftarot answer: yes. Covenant demands it. Faithfulness requires it. Forever depends on it.</p>
+<p>The fourth category in this week's puzzle is deliberately unusual — it describes not <em>what</em> Habakkuk says but <em>how</em> he says it. Because the form matters. When reality collapses, the prophet doesn't collapse with it. He reaches for structure: the psalm, the prayer, the metaphor, the carefully constructed poem. The shape of the language holds what the circumstances cannot.</p>
  
-<p>And the oath endures. Decades later, David asks: <span class="heb">הֲכִי נִשְׁאַר אִישׁ לְבֵית שָׁאוּל</span> — is there anyone left of Saul's house? He finds Mephiboshet, Jonathan's disabled son, and restores everything. <span class="heb">זַרְעִי</span> — my offspring — Jonathan had said. David remembered.</p>
+<p>Shavuot gives us Torah. Torah sustains when crops don't. We study all night not because the wheat grew, but because the covenant endures whether fruit comes or fails.</p>
  
-<p><em>Shabbat Shalom and Chodesh Tov — may we be people who remember our promises.</em></p>
+<p><em>Chag Sameach — may we rejoice in harvest, and rejoice still when harvest fails.</em></p>
 `
   }
  
