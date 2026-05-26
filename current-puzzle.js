@@ -1,70 +1,66 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Shavuot Day 2 · June 2, 2026
+//  Parashat Naso · May 30, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
-  // ── Header info ──────────────────────────────────────────────────
-  week:       "Shavuot Day 2",
-  hebrewWeek: "שָׁבוּעוֹת יוֹם שֵׁנִי",
-  date:       "7 Sivan 5786  ·  June 2, 2026",
-  parasha:    "Deuteronomy 15:19–16:17",
-  haftarah:   "Habakkuk 2:20–3:19",
+  week:       "Parashat Naso",
+  hebrewWeek: "פָּרָשַׁת נָשֹׂא",
+  date:       "13 Sivan 5786  ·  May 30, 2026",
+  parasha:    "Numbers 4:21–7:89",
+  haftarah:   "Judges 13:2–25",
  
-  // ── Reflection question ───────────────────────────────────────────
-  reflectionQuestion: "The Navi says he will delight in Hashem even if the crops fail and the flock dies. Would you be able to rejoice with Hashem in such difficult circumstances?",
+  reflectionQuestion: "Claude gives his answer as to why the Nazir restrictions are insufficient to keep Shimson from largely failing at his mission. What do you think the reason is?",
  
-  // ── Four categories ───────────────────────────────────────────────
   categories: [
     {
-      name:  "Divine Locations / Places of Theophany",
-      color: "yellow",
-      words: ["TEMAN", "PARAN", "PALACE", "HOREB"],
-      explanation: "Habakkuk 3:3: \"God came from Teman, and the Holy One from Mount Paran\" — echoing the Sinai theophany. Horeb is Sinai's alternate name, present in the storm-imagery throughout the chapter. And 2:20: \"the LORD is in his holy temple\" (palace) — the divine dwelling from which He goes forth in power. These are the coordinates of divine presence: where God appears, where He dwells, where He was first revealed."
-    },
-    {
-      name:  "Agricultural Failures (Habakkuk 3:17)",
-      color: "green",
-      words: ["BLOSSOM", "CATTLE", "FRUIT", "OLIVE CROP"],
-      explanation: "Habakkuk 3:17: \"Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food, the flock be cut off from the fold and there be no herd in the stalls.\" Everything Shavuot celebrates — firstfruits, harvest, agricultural abundance — stripped away. Blossom fails, fruit disappears, olive crop produces nothing, cattle vanish. This is the verse that makes verse 18 so astonishing."
-    },
-    {
-      name:  "Divine Actions of Power (Habakkuk 3)",
+      name:  "Nazir Prohibitions",
       color: "blue",
-      words: ["SHAKE", "SHATTER", "SPLIT", "TREMBLE"],
-      explanation: "Habakkuk 3 is a theophany of overwhelming force: mountains tremble at God's march (3:10), nations shake (3:6), God shatters the wicked (3:13–14), rivers split the earth open (3:9). The same God who appears in Teman and Paran also convulses the physical world. The prophet isn't describing a gentle encounter — he describes knees buckling and lips quivering (3:16) at the approach of the divine."
+      words: ["GRAPES", "RAZOR", "UNCLEAN", "WINE"],
+      explanation: "The Nazirite restrictions given to Samson's mother — and through her to Samson — in Judges 13:4–5, 14: no wine or strong drink, nothing from the grapevine (grapes), no razor to touch his head, and no unclean food. These three categories of prohibition define the Nazirite's consecrated status. They are external, behavioral, and specific. What they cannot legislate is the interior disposition of the heart."
     },
     {
-      name:  "Literary / Textual Terms Describing How Habakkuk 3 Is Written",
+      name:  "Associated with the Angel (Judges 13)",
+      color: "green",
+      words: ["ALTAR", "ASCEND", "FLAME", "NAME"],
+      explanation: "The angel's presence in Judges 13 is marked by four striking moments: Manoah offers a kid on the altar (v.19); the angel ascends in the altar's flame (v.20); the flame rises heavenward; and when Manoah asks the angel's name, he refuses — \"It is peleh (wondrous/beyond knowing)\" (v.18). The four words trace an arc from encounter to mystery: from the concrete altar to the unnameable divine."
+    },
+    {
+      name:  "Shamor — Appears Several Times in the Haftarah",
+      color: "yellow",
+      words: ["ANTICIPATE", "ENSURE", "GUARD", "OBEY"],
+      explanation: "The root שָׁמַר (shamor) runs through Judges 13 in multiple senses: guard and observe the instructions (v.13–14), obey the restrictions, ensure the child's consecration, and anticipate the coming salvation. Mrs. Manoah shamors the angel's words internally — she receives them with reverence and holds them. This inward guarding is precisely what Samson, for all his external compliance, never masters."
+    },
+    {
+      name:  "Use of Peleh (Wondrous) — Verses 18–19, also Genesis 18:14, Isaiah 9:5",
       color: "purple",
-      words: ["METAPHOR", "POETRY", "PRAYER", "PSALMS"],
-      explanation: "A meta-textual category: Habakkuk 3:1 opens with \"A prayer of Habakkuk the prophet\" — explicitly labeled PRAYER. The chapter is structured like PSALMS, complete with the term Selah (3:3, 9, 13) found throughout Tehillim. It is written in biblical POETRY with parallel structure throughout. And it is saturated with METAPHOR — God as warrior, light as rays from His hand, rivers splitting at His command. The form is inseparable from the message."
+      words: ["ANGEL'S ACTIONS", "ANGEL'S \"NAME\"", "GOD TO SARAH", "SAVIOR'S NAME"],
+      explanation: "פֶּלֶא (peleh) appears in four remarkable contexts: the angel's actions at the altar are described as peleh (Judges 13:19); when Manoah asks the angel's name, he answers \"it is peleh\" (13:18) — a name that is also a refusal to be named; God asks \"Is anything peleh for the LORD?\" announcing Isaac's birth to Sarah (Gen. 18:14); and Isaiah 9:5 gives the coming savior the name Peleh-Yoetz — Wondrous Counselor. One word links wonder, divine mystery, impossible birth, and messianic hope."
     }
   ],
  
-  // ── Dvar Torah ────────────────────────────────────────────────────
   dvarTorah: {
-    hebrewTitle: "כְּשֶׁהַקָּצִיר נִכְשָׁל",
-    title: "When the Harvest Fails — A Shavuot Dvar Torah",
+    hebrewTitle: "הַנָּזִיר שֶׁלֹּא שָׁמַר אֶת לִבּוֹ",
+    title: "The Nazirite Who Did Not Guard His Heart — A Dvar Torah on Judges 13",
     text: `
-<p>Shavuot is Chag HaBikkurim, Chag HaKatzir — the festival of firstfruits, the celebration of harvest. Grapes and figs ripen. We feast on wheat and dairy. The whole holiday assumes abundance.</p>
+<p>Mrs. Manoah experiences <span class="heb">נוֹרָא מְאֹד</span> — awesome, overwhelming fear — when the angel appears (13:6). She <em>shamors</em> the instructions: no wine, no unclean food. Internal reverence meets external obedience.</p>
  
-<p>Then we read Habakkuk 3:17: <span class="heb">כִּי-תְאֵנָה לֹא-תִפְרָח וְאֵין יְבוּל בַּגְּפָנִים</span> — "Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail... the flock be cut off from the fold and there be no herd in the stalls."</p>
+<p>Samson receives the same Nazirite restrictions: no wine, no razor, no unclean food. But something crucial is missing.</p>
  
-<p>Everything Shavuot celebrates — gone. Blossom fails. Fruit disappears. Olive crop produces nothing. Cattle vanish.</p>
+<p>The Nazirite vows are about what <em>not</em> to do. Don't drink. Don't cut hair. Don't touch unclean things. These are restrictions, boundaries, prohibitions. Yet restrictions alone cannot transform the human heart.</p>
  
-<p>Verse 18: <span class="heb">וַאֲנִי בַּיהֹוָה אֶעְלוֹזָה</span> — "Yet I will rejoice in the LORD."</p>
+<p>Samson keeps the external laws — until he doesn't (Delilah, the lion, the honey). But even when he technically obeys, his heart is unguarded. He doesn't <em>shamor</em> his inner self. He treats his strength as his own wonder (<span class="heb">פֶּלֶא</span>) rather than God's gift. He is driven by lust, pride, anger — none of which violate the letter of the Nazirite law, but all of which violate its spirit.</p>
  
-<p>This is Shavuot's deepest teaching. Yes, we celebrate with firstfruits and harvest when they come. We mark abundance gratefully. But the covenant does not depend on the harvest succeeding.</p>
+<p>When Manoah asks the angel's name, the angel answers: <span class="heb">לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וְהוּא-פֶלִאי</span> — "Why do you ask my name? It is peleh — wondrous, beyond knowing." The divine operates in a register that cannot be captured, named, or controlled. The same word appears when God says to Sarah: "Is anything peleh for the LORD?" (Gen. 18:14). Wonder cannot be commanded or manipulated. It can only be received — by those whose hearts are open.</p>
  
-<p>Ezekiel saw the divine chariot in Babylonian exile — wheels, sapphire, fire, rainbow — when the Temple was destroyed and abundance was memory. Habakkuk wrote when agriculture was failing and God seemed absent. Both responded with prayer, psalms, poetry, and metaphor: finding language to meet God even when material blessing had disappeared.</p>
+<p>Mrs. Manoah receives it. Samson does not. That is the tragedy the restrictions could not prevent.</p>
  
-<p>The fourth category in this week's puzzle is deliberately unusual — it describes not <em>what</em> Habakkuk says but <em>how</em> he says it. Because the form matters. When reality collapses, the prophet doesn't collapse with it. He reaches for structure: the psalm, the prayer, the metaphor, the carefully constructed poem. The shape of the language holds what the circumstances cannot.</p>
+<p>The true savior Israel needs requires more than external observance. It requires <span class="heb">יִרְאָה</span> — fear and reverence of God — the same awe Mrs. Manoah felt before the <span class="heb">פֶּלֶא</span> angel. Later, David will be chosen: not the strongest, not the one with supernatural gifts, but one whose heart trembles before God. One who shamors not just his actions but his relationship with the Divine.</p>
  
-<p>Shavuot gives us Torah. Torah sustains when crops don't. We study all night not because the wheat grew, but because the covenant endures whether fruit comes or fails.</p>
+<p>The Nazirite restrictions were meant to consecrate Samson to God's mission. But consecration requires guarding the heart, not just the body. Without internal <span class="heb">יִרְאָה</span> — without that awesome reverence — even God's chosen vessel becomes a tool of personal desire rather than divine purpose.</p>
  
-<p><em>Chag Sameach — may we rejoice in harvest, and rejoice still when harvest fails.</em></p>
+<p><em>Shabbat Shalom — the restrictions without the reverence produced only tragedy.</em></p>
 `
   }
  
