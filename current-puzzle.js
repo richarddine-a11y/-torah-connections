@@ -1,67 +1,66 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Naso · May 30, 2026
+//  Parashat Beha'alotcha · June 6, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
-  week:       "Parashat Naso",
-  hebrewWeek: "פָּרָשַׁת נָשֹׂא",
-  date:       "13 Sivan 5786  ·  May 30, 2026",
-  parasha:    "Numbers 4:21–7:89",
-  haftarah:   "Judges 13:2–25",
+  week:       "Parashat Beha'alotcha",
+  hebrewWeek: "פָּרָשַׁת בְּהַעֲלֹתְךָ",
+  date:       "20 Sivan 5786  ·  June 6, 2026",
+  parasha:    "Numbers 8:1–12:16",
+  haftarah:   "Zechariah 2:14–4:7",
  
-  reflectionQuestion: "Claude gives his answer as to why the Nazir restrictions are insufficient to keep Shimson from largely failing at his mission. What do you think the reason is?",
+  reflectionQuestion: "Claude in his Dvar Torah below gives what he thinks is the reason the Israelites were reluctant to rebuild the Temple. Why do you think they were reluctant?",
  
   categories: [
     {
-      name:  "Nazir Prohibitions",
-      color: "blue",
-      words: ["GRAPES", "RAZOR", "UNCLEAN", "WINE"],
-      explanation: "The Nazirite restrictions given to Samson's mother — and through her to Samson — in Judges 13:4–5, 14: no wine or strong drink, nothing from the grapevine (grapes), no razor to touch his head, and no unclean food. These three categories of prohibition define the Nazirite's consecrated status. They are external, behavioral, and specific. What they cannot legislate is the interior disposition of the heart."
-    },
-    {
-      name:  "Associated with the Angel (Judges 13)",
-      color: "green",
-      words: ["ALTAR", "ASCEND", "FLAME", "NAME"],
-      explanation: "The angel's presence in Judges 13 is marked by four striking moments: Manoah offers a kid on the altar (v.19); the angel ascends in the altar's flame (v.20); the flame rises heavenward; and when Manoah asks the angel's name, he refuses — \"It is peleh (wondrous/beyond knowing)\" (v.18). The four words trace an arc from encounter to mystery: from the concrete altar to the unnameable divine."
-    },
-    {
-      name:  "Shamor — Appears Several Times in the Haftarah",
+      name:  "Possible Meanings of Satan (Zechariah 3:1)",
       color: "yellow",
-      words: ["ANTICIPATE", "ENSURE", "GUARD", "OBEY"],
-      explanation: "The root שָׁמַר (shamor) runs through Judges 13 in multiple senses: guard and observe the instructions (v.13–14), obey the restrictions, ensure the child's consecration, and anticipate the coming salvation. Mrs. Manoah shamors the angel's words internally — she receives them with reverence and holds them. This inward guarding is precisely what Samson, for all his external compliance, never masters."
+      words: ["ACCUSER", "ADVERSARY", "SATAN", "TEMPTER"],
+      explanation: "Zechariah 3:1 introduces הַשָּׂטָן standing at Joshua's right hand. The Hebrew word שָׂטָן is not a proper name but a role: an accuser in a legal proceeding, an adversary, a tempter who raises obstacles. In this passage the Satan voices the inner and outer resistance to restoration — you're unworthy, too compromised, too broken to rebuild. God's response is not to rebut the accusation but to remove the filthy garments entirely."
     },
     {
-      name:  "Use of Peleh (Wondrous) — Verses 18–19, also Genesis 18:14, Isaiah 9:5",
+      name:  "Reasons People May Have Been Reluctant to Rebuild the Temple",
+      color: "green",
+      words: ["ASSIMILATION", "FEAR", "POLITICS", "UNWORTHY"],
+      explanation: "After 70 years in Babylon the returning exiles faced profound reluctance. Fear of Persian reprisal and local opposition (Ezra 4) was real. Assimilation had taken hold — they had built lives, learned Aramaic, raised children who barely remembered Jerusalem. A sense of being unworthy after the catastrophe of destruction haunted them: how could they rebuild what their sins had destroyed? And politics — internal factions, external pressure — made every step contested."
+    },
+    {
+      name:  "Reasons to Rebuild the Temple",
+      color: "blue",
+      words: ["CHOOSE", "DWELL", "RETAKING POSSESSION", "WORLD UNITY"],
+      explanation: "Zechariah offers four positive impulses for return: God promises to DWELL again in Jerusalem's midst (2:14); the exiles are called to CHOOSE covenant over comfort (2:10–11); the return means RETAKING POSSESSION of the holy land; and the vision of nations joining Israel — \"many nations shall join themselves to the LORD\" (2:15) — points toward a WORLD UNITY that makes restoration cosmically significant, not merely national."
+    },
+    {
+      name:  "Hints at Restoration of the Davidic Dynasty (Zechariah 3:8–4:7)",
       color: "purple",
-      words: ["ANGEL'S ACTIONS", "ANGEL'S \"NAME\"", "GOD TO SARAH", "SAVIOR'S NAME"],
-      explanation: "פֶּלֶא (peleh) appears in four remarkable contexts: the angel's actions at the altar are described as peleh (Judges 13:19); when Manoah asks the angel's name, he answers \"it is peleh\" (13:18) — a name that is also a refusal to be named; God asks \"Is anything peleh for the LORD?\" announcing Isaac's birth to Sarah (Gen. 18:14); and Isaiah 9:5 gives the coming savior the name Peleh-Yoetz — Wondrous Counselor. One word links wonder, divine mystery, impossible birth, and messianic hope."
+      words: ["SEEDLING", "SERVANT", "SHOOT", "SIGN"],
+      explanation: "Zechariah 3:8 calls Joshua and his colleagues a SIGN (מוֹפֵת) of what is coming; God's SERVANT will come (3:8); the SHOOT (צֶמַח) — a messianic title echoing Isaiah 11 and Jeremiah 23 — will emerge; and the SEEDLING, new growth from the stump of Jesse, is the recurring metaphor for Davidic restoration. These four words map the horizon beyond the immediate rebuilding toward the ultimate redemption it anticipates."
     }
   ],
  
   dvarTorah: {
-    hebrewTitle: "הַנָּזִיר שֶׁלֹּא שָׁמַר אֶת לִבּוֹ",
-    title: "The Nazirite Who Did Not Guard His Heart — A Dvar Torah on Judges 13",
+    hebrewTitle: "הָאִשּׁוּם וְהַחֶסֶד",
+    title: "The Accusation and the Grace — A Dvar Torah on Zechariah 3–4",
     text: `
-<p>Mrs. Manoah experiences <span class="heb">נוֹרָא מְאֹד</span> — awesome, overwhelming fear — when the angel appears (13:6). She <em>shamors</em> the instructions: no wine, no unclean food. Internal reverence meets external obedience.</p>
+<p>Satan stands at Joshua's right hand to accuse him (3:1). The high priest stands in filthy garments before the divine court. And the accusation is not wrong — Israel <em>has</em> failed, the Temple <em>was</em> destroyed, the people <em>are</em> compromised.</p>
  
-<p>Samson receives the same Nazirite restrictions: no wine, no razor, no unclean food. But something crucial is missing.</p>
+<p>After 70 years in Babylon, the returning exiles face an impossible choice: rebuild, or remain in the comfort of exile. The Satan voices what they whisper to themselves: you're not worthy. You don't deserve restoration. You're too assimilated, too afraid, too foreign now.</p>
  
-<p>The Nazirite vows are about what <em>not</em> to do. Don't drink. Don't cut hair. Don't touch unclean things. These are restrictions, boundaries, prohibitions. Yet restrictions alone cannot transform the human heart.</p>
+<p>Yet God's response isn't to argue with the accusation. Instead: <span class="heb">הָסִירוּ הַבְּגָדִים הַצֹּאִים מֵעָלָיו</span> — "Remove the filthy garments from him... I have taken your iniquity away from you" (3:4). The grace precedes the justification. The clean garments come before the worthy life, not after it.</p>
  
-<p>Samson keeps the external laws — until he doesn't (Delilah, the lion, the honey). But even when he technically obeys, his heart is unguarded. He doesn't <em>shamor</em> his inner self. He treats his strength as his own wonder (<span class="heb">פֶּלֶא</span>) rather than God's gift. He is driven by lust, pride, anger — none of which violate the letter of the Nazirite law, but all of which violate its spirit.</p>
+<p>Then comes the vision of the menorah and the olive trees — and the answer to "how will they rebuild?" is not through political power, not through military strength, not through having earned the right. <span class="heb">לֹא בְחַיִל וְלֹא בְכֹחַ כִּי אִם-בְּרוּחִי</span> — "Not by might, nor by power, but by My Spirit" (4:6).</p>
  
-<p>When Manoah asks the angel's name, the angel answers: <span class="heb">לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וְהוּא-פֶלִאי</span> — "Why do you ask my name? It is peleh — wondrous, beyond knowing." The divine operates in a register that cannot be captured, named, or controlled. The same word appears when God says to Sarah: "Is anything peleh for the LORD?" (Gen. 18:14). Wonder cannot be commanded or manipulated. It can only be received — by those whose hearts are open.</p>
+<p>Why were they reluctant? My reading: the deepest obstacle wasn't fear of Persia or the pain of assimilation. It was theological. They believed, with the Satan, that they had forfeited the right. That rebuilding required worthiness they didn't possess. That grace had to be <em>earned</em> before it could be received.</p>
  
-<p>Mrs. Manoah receives it. Samson does not. That is the tragedy the restrictions could not prevent.</p>
+<p>Zechariah's answer demolishes that logic. The SHOOT, the SERVANT, the SEEDLING — Davidic restoration — will come not to the worthy but to those willing to be clothed in garments they didn't earn. The SIGN is the seven-eyed stone: God's gaze, not human achievement, is what drives history forward.</p>
  
-<p>The true savior Israel needs requires more than external observance. It requires <span class="heb">יִרְאָה</span> — fear and reverence of God — the same awe Mrs. Manoah felt before the <span class="heb">פֶּלֶא</span> angel. Later, David will be chosen: not the strongest, not the one with supernatural gifts, but one whose heart trembles before God. One who shamors not just his actions but his relationship with the Divine.</p>
+<p>What finally moves the reluctant exiles isn't overcoming every obstacle. It's the shout of <span class="heb">חֵן חֵן לָהּ</span> — "Grace, grace to it!" (4:7) — over the capstone. Restoration isn't earned. It's given. And the only thing required is the willingness to receive it.</p>
  
-<p>The Nazirite restrictions were meant to consecrate Samson to God's mission. But consecration requires guarding the heart, not just the body. Without internal <span class="heb">יִרְאָה</span> — without that awesome reverence — even God's chosen vessel becomes a tool of personal desire rather than divine purpose.</p>
- 
-<p><em>Shabbat Shalom — the restrictions without the reverence produced only tragedy.</em></p>
+<p><em>Shabbat Shalom — may we be willing to be clothed in grace we haven't earned.</em></p>
 `
   }
  
 };
+ 
