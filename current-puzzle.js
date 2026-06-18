@@ -1,67 +1,76 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Shelach · June 13, 2026
+//  Parashat Korah · June 20, 2026 - 5 Tamuz 5786
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
-  week:       "Parashat Shelach",
-  hebrewWeek: "פָּרָשַׁת שְׁלַח",
-  date:       "27 Sivan 5786  ·  June 13, 2026",
-  parasha:    "Numbers 13:1–15:41",
-  haftarah:   "Joshua 2:1–24",
+  week:       "Parashat Korah",
+  hebrewWeek: "פָּרָשַׁת קֹרַח",
+  date:       "4 Tammuz 5786  ·  June 20, 2026",
+  parasha:    "Numbers 16:1–18:32",
+  haftarah:   "1 Samuel 11:14–12:22",
  
-  reflectionQuestion: "Claude's Dvar Torah points to a way to think about how the verb V'hotzi is used in Tanach. Do you see a deeper meaning in the term being used in these different contexts — Joshua 2:3, Genesis 19:5, Jeremiah 7:22 & 11:4?",
+  reflectionQuestion: "The great mystery in the Haftarah is whether God and Shmuel wanted the Israelites to have a king or not. Do the Connections puzzles help you solve that riddle?",
  
   categories: [
     {
-      name:  "Elements of Spies Hiding (Joshua 2)",
+      name:  "Good Guys",
       color: "blue",
-      words: ["3 DAYS", "FLAX", "HILLS", "ROOF"],
-      explanation: "Rahab hides the spies under stalks of FLAX laid out on her ROOF (2:6) — the flax concealing them in plain sight. She sends their pursuers toward the Jordan, and the spies wait 3 DAYS in the HILLS before crossing back (2:16, 22). Each element is practical, unheroic, domestic. The great drama of Jericho's fall begins with flax stalks and a rooftop hideout."
+      words: ["BEDAN", "JEPHTHAH", "JERUBBAAL", "SHMUEL"],
+      explanation: "Samuel's defense speech (12:11) invokes the judges God sent to rescue Israel: Jerubbaal (Gideon), Bedan (likely Samson or Barak, depending on the tradition), and Jephthah — each raised up in a time of crisis to deliver the people. Samuel adds himself to the list. Together they represent the model of leadership Israel is now abandoning: judges raised by God in response to need, not hereditary kings enthroned by popular demand."
     },
     {
-      name:  "What Jericho Heard About the Israelites (Joshua 2:10–11)",
+      name:  "Bad Guys (or Their Countries)",
       color: "green",
-      words: ["GOD'S POWER", "OG", "REED SEA", "SICHON"],
-      explanation: "Rahab's confession to the spies (2:10–11) catalogs what Jericho already knows: that God dried up the REED SEA at the Exodus, and that Israel utterly destroyed SICHON and OG, the Amorite kings east of the Jordan. The result: hearts melted, GOD'S POWER recognized. Rahab's rescue of the spies is not naïve kindness — it is a calculated theological conclusion: this God wins."
+      words: ["EGYPTIANS", "NACHASH", "PHILISTINES", "SISERA"],
+      explanation: "Samuel's historical survey of Israel's enemies (12:9–12) catalogs the oppressors God repeatedly rescued Israel from: the Egyptians at the Exodus, Sisera (the Canaanite general defeated by Deborah and Barak), the Philistines, and Nachash king of Ammon — whose recent threat (11:1–11) was the immediate trigger for Israel's demand for a king. Each enemy was defeated not by a king but by God acting through judges."
     },
     {
-      name:  "Spies' Promise to Rahab (Joshua 2:12–20)",
+      name:  "Ways Leaders Are Corrupt (So Shmuel Had to Assert His Innocence)",
       color: "yellow",
-      words: ["BARGAIN", "FAMILY", "OATH", "SIGN"],
-      explanation: "The covenant between Rahab and the spies has four components: a formal BARGAIN (2:12–14) — kindness exchanged for protection; an OATH sworn by God (2:12); a SIGN — the crimson cord in her window (2:18) — marking her house for rescue; and extension of the promise to her entire FAMILY (2:13, 18). The structure mirrors a treaty: obligation, witness, symbol, scope. Rahab negotiates with legal precision."
+      words: ["BRIBE", "DEFRAUD", "OX/DONKEY", "ROB"],
+      explanation: "Before pronouncing judgment, Samuel demands a public accounting (12:3): \"Whose ox have I taken? Whose donkey have I taken? Whom have I defrauded? Whom have I robbed? From whose hand have I taken a bribe?\" The list maps the standard corruptions of ancient leadership — livestock theft, fraud, robbery, bribery. The people answer: none. Samuel's integrity is the foil against which Israel's demand for a king — with all the exploitation a king will bring (8:11–18) — becomes all the more damning."
     },
     {
-      name:  "Use of a Form of Hotzi'i (Bring Out/Forth) — Joshua 2:3, Genesis 19:5, Jeremiah 7:22 & 11:4",
+      name:  "Forced Realization — Shmuel's Prophetic Display and Its Message",
       color: "purple",
-      words: ["JERICHO", "NO SACRIFICES", "OBEY", "SODOM"],
-      explanation: "The verb הוֹצִיא (bring out) links four moments: Jericho's king demands Rahab bring out the spies (Josh. 2:3); Sodom's mob demands Lot bring out his guests (Gen. 19:5); God declares He brought Israel out of Egypt — not for sacrifices but to OBEY (Jer. 7:22); and again: I brought you out to be My people (Jer. 11:4). Same verb, three contexts: tyranny's demand, the righteous person's refusal, and God's liberating act. Rahab and Lot understand which הוציא to serve."
+      words: ["RAIN", "REALIZATION (UD'U UR'U)", "THUNDER", "WHEAT HARVEST"],
+      explanation: "Samuel's masterstroke: \"Is it not wheat harvest today?\" (12:17) — the dry season, when rain is impossible. He calls on God to send thunder and rain. It comes. The impossible sign forces the realization: <span style=\"font-style:italic\">ud'u ur'u</span> — \"know and see\" (12:17) — that asking for a king was wrong. Words had failed; nature speaks. The thunder and out-of-season rain are not punishment but proof: God can communicate through the physical world when the people will not hear through words alone."
     }
   ],
  
   dvarTorah: {
-    hebrewTitle: "\"הוֹצִיאֵם\" — הוֹצֵא אוֹתָם",
-    title: "\"Bring Them Out\" — A Dvar Torah on Joshua 2",
+    hebrewTitle: "הַהַכָּרָה הַמְּאֻלֶּצֶת",
+    title: "The Forced Realization — A Dvar Torah on 1 Samuel 12",
     text: `
-<p>Three times, the verb <span class="heb">הוֹצִיא</span> — bring out — echoes through Scripture, and each echo reveals something about the others.</p>
+<p>Samuel doesn't argue. He demonstrates.</p>
  
-<p>The king of Jericho demands: <span class="heb">הוֹצִיאִי אֶת-הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ</span> — "Bring out the men who have come to you" (Joshua 2:3). Lot's neighbors in Sodom demand: "Bring them out to us" (Genesis 19:5). And God declares to Israel: "I brought you out of the land of Egypt — not for burnt offerings, but that you would obey my voice" (Jeremiah 7:22).</p>
+<p>After recounting Israel's history — Egyptians defeated, Sisera destroyed, Nachash, Philistines vanquished — Samuel faces the ultimate challenge: they want a king. They're rejecting him and the judges before him: Jerubbaal, Bedan, Jephthah.</p>
  
-<p>Same word. Three stories. One reveals everything.</p>
+<p>Samuel could defend himself with credentials. Instead he asks: <span class="heb">אֶת-שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי</span> — "Whose ox have I taken? Whose donkey? Whom have I defrauded, whom have I robbed?" No bribes. No fraud. The people answer: none. His integrity is spotless.</p>
  
-<p>At Jericho and Sodom, righteous people — Rahab and Lot — refuse the demand. They protect strangers instead of surrendering them. They disobey the king, the city, the crowd, because they recognize a higher covenant. But notice what Rahab actually does: she <em>brings the spies out</em> — through the window, down the rope, to safety. She brings out by protecting, not by betraying.</p>
+<p>But they still doubt. So Samuel does something radical.</p>
  
-<p>Then God's word in Jeremiah echoes: "I brought you out of Egypt." This is the ultimate <span class="heb">הוֹצִיא</span> — not a demand to betray, but a promise to liberate. And the purpose? Not sacrifice. <em>Obey my voice.</em> The covenant is relational, not merely ritual.</p>
+<p>"Is it not wheat harvest today?" (12:17) — the dry season, when rain is impossible. "I will call upon the LORD, that he may send thunder and rain." The thunder crashes. The rain falls. Out of season. Undeniable.</p>
  
-<p>Parashat Shelach sends spies to scout the land God will bring Israel into. The haftarah shows what they find when they arrive: someone who already understands the deepest meaning of <span class="heb">הוֹצִיא</span> — that to truly bring out means to protect the vulnerable, to resist tyranny, to align with the liberating God rather than with the demanding king.</p>
+<p><span class="heb">דְּעוּ וּרְאוּ</span> — "Know and see" (12:17) — your choice was wrong. God is communicating through nature itself.</p>
  
-<p>Rahab hides the spies under flax on her roof, sends pursuers toward the hills, negotiates a covenant with sign and oath and family. She participates in God's <span class="heb">הוֹצִיא</span> before she knows its name.</p>
+<p>This is the strategy of the prophet when people will not hear words: force the realization through signs.</p>
  
-<p>When we refuse unjust demands and protect the stranger, we are not merely being kind. We are participating in the same liberating force that freed Israel from Egypt — bringing people out toward freedom.</p>
+<p>Korah rebels against Moses, demanding, "Why do you exalt yourselves?" (Numbers 16:3). He has arguments. He has followers. He has the democratic instinct that all the congregation is holy. But he lacks what Samuel has: the willingness to let God's power speak rather than his own.</p>
  
-<p><em>Shabbat Shalom — may we know which הוציא we are called to serve.</em></p>
+<p>Samuel's thunder doesn't prove he's right because he's persuasive. It proves it because God backs it up. The rain in wheat harvest season is God saying: trust this judgment — it is Mine.</p>
+ 
+<p>And now for the mystery the puzzle poses: did God and Samuel <em>want</em> the people to have a king? The answer is genuinely both. God tells Samuel: "They have not rejected you — they have rejected Me" (8:7). And yet God says: "Listen to their voice" (8:9, 12:1). God accommodates the request while making clear it is a moral failure. Samuel both grants the king and delivers the thunderstorm of rebuke.</p>
+ 
+<p>The people <span class="heb">דְּעוּ וּרְאוּ</span> — they finally see. "We have added to all our sins this evil, to ask for ourselves a king" (12:19). And Samuel's response is not triumph but pastoral care: "Do not be afraid... God will not forsake you" (12:20–22).</p>
+ 
+<p>That is the full picture: condemnation and comfort, thunder and reassurance, integrity that doesn't need to win — only to witness.</p>
+ 
+<p><em>Shabbat Shalom — sometimes integrity isn't enough. Sometimes you need the thunder.</em></p>
 `
   }
  
 };
+ 
