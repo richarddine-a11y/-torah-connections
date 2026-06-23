@@ -1,76 +1,69 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Korah · June 20, 2026 - 5 Tamuz 5786
+//  Parashat Chukat-Balak · June 27, 2026 -- Tammuz 12 5786
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
-  week:       "Parashat Korah",
-  hebrewWeek: "פָּרָשַׁת קֹרַח",
-  date:       "4 Tammuz 5786  ·  June 20, 2026",
-  parasha:    "Numbers 16:1–18:32",
-  haftarah:   "1 Samuel 11:14–12:22",
+  week:       "Parashat Chukat-Balak",
+  hebrewWeek: "פָּרָשַׁת חֻקַּת-בָּלָק",
+  date:       "11 Tammuz 5786  ·  June 27, 2026",
+  parasha:    "Numbers 19:1–25:9",
+  haftarah:   "Micah 5:6–6:8",
  
-  reflectionQuestion: "The great mystery in the Haftarah is whether God and Shmuel wanted the Israelites to have a king or not. Do the Connections puzzles help you solve that riddle?",
+  reflectionQuestion: "Claude's Dvar Torah reminds me of the story in Avodah Zarah 17a: when Elazar ben Durdayya was told his repentance would not be accepted, he appealed to the mountains, the hills, heaven and earth — and each said: 'Before we pray for mercy on your behalf, we must pray for mercy on our own behalf.' He then said: 'Clearly the matter depends on nothing other than myself.' He placed his head between his knees and wept until his soul departed. A Divine Voice declared: 'Rabbi Elazar ben Durdayya is destined for life in the World-to-Come.' What do you make of all this?",
  
   categories: [
     {
-      name:  "Good Guys",
-      color: "blue",
-      words: ["BEDAN", "JEPHTHAH", "JERUBBAAL", "SHMUEL"],
-      explanation: "Samuel's defense speech (12:11) invokes the judges God sent to rescue Israel: Jerubbaal (Gideon), Bedan (likely Samson or Barak, depending on the tradition), and Jephthah — each raised up in a time of crisis to deliver the people. Samuel adds himself to the list. Together they represent the model of leadership Israel is now abandoning: judges raised by God in response to need, not hereditary kings enthroned by popular demand."
-    },
-    {
-      name:  "Bad Guys (or Their Countries)",
-      color: "green",
-      words: ["EGYPTIANS", "NACHASH", "PHILISTINES", "SISERA"],
-      explanation: "Samuel's historical survey of Israel's enemies (12:9–12) catalogs the oppressors God repeatedly rescued Israel from: the Egyptians at the Exodus, Sisera (the Canaanite general defeated by Deborah and Barak), the Philistines, and Nachash king of Ammon — whose recent threat (11:1–11) was the immediate trigger for Israel's demand for a king. Each enemy was defeated not by a king but by God acting through judges."
-    },
-    {
-      name:  "Ways Leaders Are Corrupt (So Shmuel Had to Assert His Innocence)",
+      name:  "Similes for the Remnant of Jacob (Micah 5:7–8)",
       color: "yellow",
-      words: ["BRIBE", "DEFRAUD", "OX/DONKEY", "ROB"],
-      explanation: "Before pronouncing judgment, Samuel demands a public accounting (12:3): \"Whose ox have I taken? Whose donkey have I taken? Whom have I defrauded? Whom have I robbed? From whose hand have I taken a bribe?\" The list maps the standard corruptions of ancient leadership — livestock theft, fraud, robbery, bribery. The people answer: none. Samuel's integrity is the foil against which Israel's demand for a king — with all the exploitation a king will bring (8:11–18) — becomes all the more damning."
+      words: ["DEWDROPS", "LION", "SHOWERS", "YOUNG LION"],
+      explanation: "Micah 5:7–8 gives the remnant of Jacob two contrasting images: like dewdrops and showers on grass — quiet, nourishing, not dependent on human will — and like a lion and young lion among the nations, tearing and treading with no one to deliver. Gentle presence and fierce power held together. The remnant does not announce itself. Like dew, it simply arrives — faithful, small, necessary."
     },
     {
-      name:  "Forced Realization — Shmuel's Prophetic Display and Its Message",
+      name:  "Historical Narrative Israel Should Remember (Micah 6:4–5)",
+      color: "green",
+      words: ["BALAK", "BONDAGE", "EGYPT", "WILDERNESS"],
+      explanation: "God's lawsuit against Israel (6:1–5) rests on historical memory: I brought you out of Egypt and the house of bondage; I sent Moses, Aaron, and Miriam; Balak king of Moab plotted against you, Balaam answered him — remember from Shittim to Gilgal, what happened in the wilderness. The argument is covenantal: before demanding anything from Me, remember what I have already done. The past is the evidence."
+    },
+    {
+      name:  "Offerings God Does NOT Require (Micah 6:6–7)",
+      color: "blue",
+      words: ["BOWLS", "FIRSTBORN", "OIL", "RAMS"],
+      explanation: "Micah 6:6–7 escalates the imaginary offering: thousands of rams, ten thousand rivers of oil, even the firstborn child for the sin of the soul. The accumulation is deliberate — each gift more extreme, more costly, more sacrificial than the last. And each one misses the point. God does not want displacement activity, however costly. The very extremity of these offerings reveals their function: they are attempts to avoid the harder demand of verse 8."
+    },
+    {
+      name:  "Cosmic Witnesses and Strongholds (Micah 6:1–2, 5:8–13)",
       color: "purple",
-      words: ["RAIN", "REALIZATION (UD'U UR'U)", "THUNDER", "WHEAT HARVEST"],
-      explanation: "Samuel's masterstroke: \"Is it not wheat harvest today?\" (12:17) — the dry season, when rain is impossible. He calls on God to send thunder and rain. It comes. The impossible sign forces the realization: <span style=\"font-style:italic\">ud'u ur'u</span> — \"know and see\" (12:17) — that asking for a king was wrong. Words had failed; nature speaks. The thunder and out-of-season rain are not punishment but proof: God can communicate through the physical world when the people will not hear through words alone."
+      words: ["FOUNDATIONS", "GOD", "HILLS", "MOUNTAINS"],
+      explanation: "Micah 6:1–2 summons the mountains, hills, and foundations of the earth as witnesses to God's legal case against Israel. They are enduring, ancient, silent — they have seen everything. And yet they cannot do justice, love mercy, or walk humbly. Only humans can. Meanwhile, 5:9–14 describes God as the stronghold who will cut off every human fortress — horses, chariots, cities, sorceries. In the end, the only unshakeable foundation is God alone."
     }
   ],
  
   dvarTorah: {
-    hebrewTitle: "הַהַכָּרָה הַמְּאֻלֶּצֶת",
-    title: "The Forced Realization — A Dvar Torah on 1 Samuel 12",
+    hebrewTitle: "מַה שֶּׁהֶהָרִים אֵינָם יְכוֹלִים לוֹמַר",
+    title: "What the Mountains Cannot Say — A Dvar Torah on Micah 6",
     text: `
-<p>Samuel doesn't argue. He demonstrates.</p>
+<p>The mountains and hills are called to witness (6:1–2). God summons nature itself as prosecutor. Not because the mountains have something to say — but because their silence reveals what Israel refuses to hear.</p>
  
-<p>After recounting Israel's history — Egyptians defeated, Sisera destroyed, Nachash, Philistines vanquished — Samuel faces the ultimate challenge: they want a king. They're rejecting him and the judges before him: Jerubbaal, Bedan, Jephthah.</p>
+<p>Look at what Israel offers: rams, oil, bowls, firstborn — the costliest, most precious things. Sacrifice so extreme it should prove devotion. Yet God asks: <span class="heb">הֲיִרְצֶה יְהוָה בְּאַלְפֵי אֵילִים</span> — "Will the LORD be pleased with thousands of rams?" (6:7). The implied answer: no.</p>
  
-<p>Samuel could defend himself with credentials. Instead he asks: <span class="heb">אֶת-שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי</span> — "Whose ox have I taken? Whose donkey? Whom have I defrauded, whom have I robbed?" No bribes. No fraud. The people answer: none. His integrity is spotless.</p>
+<p>Why not? Because these offerings are displacement activity. They are what we do when we want to avoid the hard thing God actually requires.</p>
  
-<p>But they still doubt. So Samuel does something radical.</p>
+<p>The mountains, hills, and foundations stand silent — because they cannot do justice. They cannot love mercy. They cannot walk humbly. Only humans can.</p>
  
-<p>"Is it not wheat harvest today?" (12:17) — the dry season, when rain is impossible. "I will call upon the LORD, that he may send thunder and rain." The thunder crashes. The rain falls. Out of season. Undeniable.</p>
+<p>Israel's mistake is thinking that cosmic gestures substitute for moral action. That the ultimate sacrifice — the firstborn — proves something about their covenant relationship. It doesn't. It proves they are trying to buy their way out of the harder covenant: <span class="heb">עֲשׂוֹת מִשְׁפָּט וְאַהֲבַת חֶסֶד וְהַצְנֵעַ לֶכֶת עִם-אֱלֹהֶיךָ</span> — doing justly, loving mercy, walking humbly with your God (6:8).</p>
  
-<p><span class="heb">דְּעוּ וּרְאוּ</span> — "Know and see" (12:17) — your choice was wrong. God is communicating through nature itself.</p>
+<p>Parashat Chukat-Balak shows Israel in the wilderness — water crises, death, Balak's curses. Not dramatic. Not sacrificial. Just surviving, learning, being shaped by the journey. And that's where the remnant becomes like dew (5:7) — not through grand gestures, but through faithful presence. Like showers on grass: quiet, nourishing, necessary.</p>
  
-<p>This is the strategy of the prophet when people will not hear words: force the realization through signs.</p>
+<p>The story in Avodah Zarah 17a of Elazar ben Durdayya illuminates exactly this. He appeals to the mountains, to the hills, to heaven and earth — and each says: we cannot help you; we must seek mercy for ourselves. The cosmic witnesses cannot intercede. Finally he understands: <span class="heb">אֵין הַדָּבָר תָּלוּי אֶלָּא בִּי</span> — the matter depends on nothing other than myself. He weeps until his soul departs — and the Divine Voice declares him destined for the World-to-Come.</p>
  
-<p>Korah rebels against Moses, demanding, "Why do you exalt yourselves?" (Numbers 16:3). He has arguments. He has followers. He has the democratic instinct that all the congregation is holy. But he lacks what Samuel has: the willingness to let God's power speak rather than his own.</p>
+<p>The mountains cannot testify on our behalf. The foundations of the earth cannot walk humbly for us. No offering — however costly — can substitute for the interior act. The witnesses against us are not the mountains. They are our own hearts, knowing whether we have done justice, loved mercy, walked humbly.</p>
  
-<p>Samuel's thunder doesn't prove he's right because he's persuasive. It proves it because God backs it up. The rain in wheat harvest season is God saying: trust this judgment — it is Mine.</p>
+<p>That is the only verdict that matters.</p>
  
-<p>And now for the mystery the puzzle poses: did God and Samuel <em>want</em> the people to have a king? The answer is genuinely both. God tells Samuel: "They have not rejected you — they have rejected Me" (8:7). And yet God says: "Listen to their voice" (8:9, 12:1). God accommodates the request while making clear it is a moral failure. Samuel both grants the king and delivers the thunderstorm of rebuke.</p>
- 
-<p>The people <span class="heb">דְּעוּ וּרְאוּ</span> — they finally see. "We have added to all our sins this evil, to ask for ourselves a king" (12:19). And Samuel's response is not triumph but pastoral care: "Do not be afraid... God will not forsake you" (12:20–22).</p>
- 
-<p>That is the full picture: condemnation and comfort, thunder and reassurance, integrity that doesn't need to win — only to witness.</p>
- 
-<p><em>Shabbat Shalom — sometimes integrity isn't enough. Sometimes you need the thunder.</em></p>
+<p><em>Shabbat Shalom — may we seek no cosmic intermediary for what only we can do.</em></p>
 `
   }
  
 };
- 
