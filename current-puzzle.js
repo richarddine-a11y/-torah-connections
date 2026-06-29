@@ -1,69 +1,74 @@
 // ─────────────────────────────────────────────────────────────────
-//  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Chukat-Balak · June 27, 2026 -- Tammuz 12 5786
+//  TORAH CONNECTIONS — Special Edition
+//  Fourth of July · Semiquincentennial · July 4, 2026 - Tammuz 19, 5786
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
  
-  week:       "Parashat Chukat-Balak",
-  hebrewWeek: "פָּרָשַׁת חֻקַּת-בָּלָק",
-  date:       "11 Tammuz 5786  ·  June 27, 2026",
-  parasha:    "Numbers 19:1–25:9",
-  haftarah:   "Micah 5:6–6:8",
+  week:       "Fourth of July — Semiquincentennial Edition",
+  hebrewWeek: "יוֹם הָעַצְמָאוּת הָאָמֶרִיקָנִי",
+  date:       "18 Tammuz 5786  ·  July 4, 2026",
+  parasha:    "250 Years of American Independence",
+  haftarah:   "Declaration of Independence · Micah 4:4 · Leviticus 25:10",
  
-  reflectionQuestion: "Claude's Dvar Torah reminds me of the story in Avodah Zarah 17a: when Elazar ben Durdayya was told his repentance would not be accepted, he appealed to the mountains, the hills, heaven and earth — and each said: 'Before we pray for mercy on your behalf, we must pray for mercy on our own behalf.' He then said: 'Clearly the matter depends on nothing other than myself.' He placed his head between his knees and wept until his soul departed. A Divine Voice declared: 'Rabbi Elazar ben Durdayya is destined for life in the World-to-Come.' What do you make of all this?",
+  reflectionQuestion: "Claude drafted the Al HaNissim prayer below for this occasion. Do you like it? Would you make any changes?",
  
   categories: [
     {
-      name:  "Similes for the Remnant of Jacob (Micah 5:7–8)",
+      name:  "Cookout Foods That Stand In for Seder Symbols",
       color: "yellow",
-      words: ["DEWDROPS", "LION", "SHOWERS", "YOUNG LION"],
-      explanation: "Micah 5:7–8 gives the remnant of Jacob two contrasting images: like dewdrops and showers on grass — quiet, nourishing, not dependent on human will — and like a lion and young lion among the nations, tearing and treading with no one to deliver. Gentle presence and fierce power held together. The remnant does not announce itself. Like dew, it simply arrives — faithful, small, necessary."
+      words: ["CORN", "HOT DOG", "MUSTARD", "WATERMELON"],
+      explanation: "In the Fourth of July Haggadah, the classic seder plate is reimagined with cookout foods: watermelon for karpas (the fresh vegetable of springtime and freedom), corn for the harvest abundance of the new land, hot dog for the shank bone (an all-American stand-in for the Paschal offering), and mustard for maror — the sharp condiment that still carries a hint of sting. Same structure, new symbols, same question: what does it mean to be free?"
     },
     {
-      name:  "Historical Narrative Israel Should Remember (Micah 6:4–5)",
+      name:  "Words from Micah 4:4 — The Verse Washington Quoted at Newport",
       color: "green",
-      words: ["BALAK", "BONDAGE", "EGYPT", "WILDERNESS"],
-      explanation: "God's lawsuit against Israel (6:1–5) rests on historical memory: I brought you out of Egypt and the house of bondage; I sent Moses, Aaron, and Miriam; Balak king of Moab plotted against you, Balaam answered him — remember from Shittim to Gilgal, what happened in the wilderness. The argument is covenantal: before demanding anything from Me, remember what I have already done. The past is the evidence."
+      words: ["FIG TREE", "MICAH", "SAFETY", "VINE"],
+      explanation: "When George Washington wrote to the Hebrew Congregation of Newport in 1790 — promising that the new government gives \"to bigotry no sanction, to persecution no assistance\" — he sealed the letter by quoting Micah 4:4: \"Every one shall sit in safety under his own vine and fig tree.\" The prophet's vision of peaceful sovereignty became the founding promise to American Jews. The Al HaNissim quotes this verse directly: וְיָשְׁבוּ אִישׁ תַּחַת גַּפְנוֹ וְתַחַת תְּאֵנָתוֹ."
     },
     {
-      name:  "Offerings God Does NOT Require (Micah 6:6–7)",
+      name:  "Songwriters of the American Standards in the Hallel",
       color: "blue",
-      words: ["BOWLS", "FIRSTBORN", "OIL", "RAMS"],
-      explanation: "Micah 6:6–7 escalates the imaginary offering: thousands of rams, ten thousand rivers of oil, even the firstborn child for the sin of the soul. The accumulation is deliberate — each gift more extreme, more costly, more sacrificial than the last. And each one misses the point. God does not want displacement activity, however costly. The very extremity of these offerings reveals their function: they are attempts to avoid the harder demand of verse 8."
+      words: ["BATES", "BERLIN", "NORWORTH", "VON TILZER"],
+      explanation: "The Fourth of July Haggadah replaces the traditional Hallel with American songs of hope and belonging — each composed by a Jewish immigrant or child of immigrants: Irving Berlin (\"God Bless America\"), Jack Norworth (\"Take Me Out to the Ballgame\"), Harry Von Tilzer (\"Take Me Out to the Ballgame\" — he wrote the music to Norworth's lyrics), and Katharine Lee Bates (\"America the Beautiful\" — not Jewish, but her vision of America as a moral project resonates throughout the Haggadah)."
     },
     {
-      name:  "Cosmic Witnesses and Strongholds (Micah 6:1–2, 5:8–13)",
+      name:  "Words Quoted from the Founding Texts of Liberty",
       color: "purple",
-      words: ["FOUNDATIONS", "GOD", "HILLS", "MOUNTAINS"],
-      explanation: "Micah 6:1–2 summons the mountains, hills, and foundations of the earth as witnesses to God's legal case against Israel. They are enduring, ancient, silent — they have seen everything. And yet they cannot do justice, love mercy, or walk humbly. Only humans can. Meanwhile, 5:9–14 describes God as the stronghold who will cut off every human fortress — horses, chariots, cities, sorceries. In the end, the only unshakeable foundation is God alone."
+      words: ["DROR", "EQUAL", "LIBERTY", "UNALIENABLE"],
+      explanation: "The Fourth of July Haggadah draws from two founding texts that speak the same language across centuries: the Declaration of Independence declares all people EQUAL, endowed with UNALIENABLE rights and LIBERTY; and Leviticus 25:10 — the verse inscribed on the Liberty Bell — proclaims DROR (דְּרוֹר, freedom) throughout the land to all its inhabitants. The Al HaNissim closes with that very verse: וּקְרָא דְרוֹר בָּאָרֶץ לְכָל יוֹשְׁבֶיהָ."
     }
   ],
  
   dvarTorah: {
-    hebrewTitle: "מַה שֶּׁהֶהָרִים אֵינָם יְכוֹלִים לוֹמַר",
-    title: "What the Mountains Cannot Say — A Dvar Torah on Micah 6",
+    hebrewTitle: "עַל הַחֵרוּת — אַל הַנִּסִּים לְיוֹם הָעַצְמָאוּת",
+    title: "עַל הַחֵרוּת — An Al HaNissim for the Fourth of July",
     text: `
-<p>The mountains and hills are called to witness (6:1–2). God summons nature itself as prosecutor. Not because the mountains have something to say — but because their silence reveals what Israel refuses to hear.</p>
+<p style="font-size:0.82rem;color:var(--ink-soft);font-style:italic;margin-bottom:1rem;">Added in the הוֹדָאָה (thanksgiving) section of Birkat HaMazon, before וְעַל הַכֹּל, on the Fourth of July.</p>
  
-<p>Look at what Israel offers: rams, oil, bowls, firstborn — the costliest, most precious things. Sacrifice so extreme it should prove devotion. Yet God asks: <span class="heb">הֲיִרְצֶה יְהוָה בְּאַלְפֵי אֵילִים</span> — "Will the LORD be pleased with thousands of rams?" (6:7). The implied answer: no.</p>
+<p style="font-family:'Frank Ruhl Libre',serif;font-size:1.15rem;line-height:2;direction:rtl;text-align:right;margin-bottom:1.2rem;">
+עַל הַנִּסִּים, וְעַל הַפֻּרְקָן, וְעַל הַגְּבוּרוֹת, וְעַל הַתְּשׁוּעוֹת, וְעַל הַחֵרוּת, וְעַל הַמָּנוֹחַ שֶׁנָּתַתָּ לַאֲבוֹתֵינוּ וְלָנוּ בָּאָרֶץ הַזֹּאת בַּיָּמִים הָהֵם וּבַזְּמַן הַזֶּה.
+<br><br>
+בִּימֵי הָאָבוֹת הַמְיַסְּדִים אֲשֶׁר קָמוּ בְּאֶרֶץ חֲדָשָׁה, כְּשֶׁעָמְדוּ עַמִּים לִדְרֹשׁ חֵרוּת מִתַּחַת יַד מַלְכוּת רָמָה, וַיִּכְתְּבוּ וַיַּכְרִיזוּ כִּי כָל הָאָדָם נִבְרָא בְּצֶלֶם וְשָׁוֶה בְּעֵינֵי בּוֹרְאוֹ, וְכִי חִלֵּק לָהֶם נוֹתֵן הַחַיִּים זְכֻיּוֹת אֲשֶׁר לֹא יוּכַל אִישׁ לְהָסִיר — חַיִּים, חֵרוּת, וּרְדִיפַת הָאֹשֶׁר. וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים נָתַתָּ בְּלִבָּם לְכוֹנֵן מֶמְשָׁלָה הַיּוֹנֶקֶת כֹּחָהּ מִן הָעָם, וְלֹא לִתֵּן לִרְשָׁעוּת מָקוֹם וְלֹא לִרְדִיפָה יָד.
+<br><br>
+וּלְעַמְּךָ בֵּית יִשְׂרָאֵל הֱיִיתָ מַחֲסֶה בָּאָרֶץ הַזֹּאת, אֲשֶׁר פָּתְחָה שְׁעָרֶיהָ לַנִּמְלָטִים מֵרֶדֶף וּמִגֵּרוּשׁ, וַתָּשֶׂם קֵץ "לִסְבֹלֶת" אֲשֶׁר אֻמּוֹת חָסֹד יַחְסֹדוּ, וַתִּתֵּן תַּחְתֶּיהָ זְכוּת מִלֵּדָה לְכָל יוֹשְׁבֶיהָ. וַתְּקַיֵּם בָּנוּ דְּבַר נְבִיאֶךָ: וְיָשְׁבוּ אִישׁ תַּחַת גַּפְנוֹ וְתַחַת תְּאֵנָתוֹ וְאֵין מַחֲרִיד.
+<br><br>
+עַל כֵּן, יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, מוֹדִים אֲנַחְנוּ לָךְ עַל הַחֵרוּת אֲשֶׁר חוֹנַנְתָּנוּ, וּמִתְפַּלְּלִים לְפָנֶיךָ שֶׁתַּעֲמֹד לָנוּ עוֹד לִשְׁמֹר אֶת מַתְּנוֹתֶיךָ. תֵּן בְּלֵב יוֹשְׁבֵי הָאָרֶץ הַזֹּאת לִרְדֹּף צֶדֶק וּמִשְׁפָּט, לְהָגֵן עַל הַחַלָּשׁ, לְקַבֵּל אֶת הַגֵּר, וְלִשְׁמֹר עַל חֵרוּתָם שֶׁל אֲחֵרִים כְּחֵרוּתָם שֶׁלָּהֶם. וּקְרָא דְּרוֹר בָּאָרֶץ לְכָל יוֹשְׁבֶיהָ, וְנֹאמַר אָמֵן.
+</p>
  
-<p>Why not? Because these offerings are displacement activity. They are what we do when we want to avoid the hard thing God actually requires.</p>
+<hr style="border:none;border-top:1px solid var(--parchment-dark);margin:1.4rem 0;">
  
-<p>The mountains, hills, and foundations stand silent — because they cannot do justice. They cannot love mercy. They cannot walk humbly. Only humans can.</p>
+<p style="font-family:'Cinzel',serif;font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--wine);opacity:0.75;margin-bottom:0.8rem;">English Translation</p>
  
-<p>Israel's mistake is thinking that cosmic gestures substitute for moral action. That the ultimate sacrifice — the firstborn — proves something about their covenant relationship. It doesn't. It proves they are trying to buy their way out of the harder covenant: <span class="heb">עֲשׂוֹת מִשְׁפָּט וְאַהֲבַת חֶסֶד וְהַצְנֵעַ לֶכֶת עִם-אֱלֹהֶיךָ</span> — doing justly, loving mercy, walking humbly with your God (6:8).</p>
+<p>For the miracles, and for the redemption, and for the mighty deeds, and for the deliverances, and for the freedom, and for the refuge that You granted to our ancestors and to us in this land, in those days and in this season:</p>
  
-<p>Parashat Chukat-Balak shows Israel in the wilderness — water crises, death, Balak's curses. Not dramatic. Not sacrificial. Just surviving, learning, being shaped by the journey. And that's where the remnant becomes like dew (5:7) — not through grand gestures, but through faithful presence. Like showers on grass: quiet, nourishing, necessary.</p>
+<p>In the days of the Founders who arose in a new land — when peoples stood up to demand freedom from beneath the hand of a mighty kingdom, and wrote and proclaimed that all humanity is created in the divine image and equal in the eyes of its Creator, and that the Giver of Life had endowed them with rights that no one may take away — life, liberty, and the pursuit of happiness. And You, in Your abundant mercy, placed it in their hearts to establish a government that draws its strength from the people, giving to wickedness no place and to persecution no hand.</p>
  
-<p>The story in Avodah Zarah 17a of Elazar ben Durdayya illuminates exactly this. He appeals to the mountains, to the hills, to heaven and earth — and each says: we cannot help you; we must seek mercy for ourselves. The cosmic witnesses cannot intercede. Finally he understands: <span class="heb">אֵין הַדָּבָר תָּלוּי אֶלָּא בִּי</span> — the matter depends on nothing other than myself. He weeps until his soul departs — and the Divine Voice declares him destined for the World-to-Come.</p>
+<p>And for Your people, the House of Israel, You were a shelter in this land — which opened its gates to those fleeing persecution and expulsion, and put an end to the "mere toleration" by which nations had condescended to them, granting instead a birthright to all its inhabitants. And You fulfilled in us the word of Your prophet: "And they shall sit, every one under his vine and under his fig tree, and none shall make them afraid."</p>
  
-<p>The mountains cannot testify on our behalf. The foundations of the earth cannot walk humbly for us. No offering — however costly — can substitute for the interior act. The witnesses against us are not the mountains. They are our own hearts, knowing whether we have done justice, loved mercy, walked humbly.</p>
- 
-<p>That is the only verdict that matters.</p>
- 
-<p><em>Shabbat Shalom — may we seek no cosmic intermediary for what only we can do.</em></p>
+<p>Therefore, L—RD our God and God of our ancestors, we give thanks to You for the freedom You have graced us with, and we pray before You that You stand by us still, to guard Your gifts. Place in the hearts of the inhabitants of this land to pursue justice and righteousness, to protect the weak, to welcome the stranger, and to guard the freedom of others as their own. "And proclaim liberty throughout the land to all its inhabitants" — and let us say, Amen.</p>
 `
   }
  
 };
+ 
