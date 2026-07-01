@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Special Edition
-//  Fourth of July · Semiquincentennial · July 4, 2026 - Tammuz 19, 5786
+//  Fourth of July · Semiquincentennial · July 4, 2026
 // ─────────────────────────────────────────────────────────────────
  
 const PUZZLE = {
@@ -9,7 +9,7 @@ const PUZZLE = {
   hebrewWeek: "יוֹם הָעַצְמָאוּת הָאָמֶרִיקָנִי",
   date:       "18 Tammuz 5786  ·  July 4, 2026",
   parasha:    "250 Years of American Independence",
-  haftarah:   "Declaration of Independence 
+  haftarah:   "Declaration of Independence · 0",
  
   reflectionQuestion: "Claude drafted the Al HaNissim prayer below for this occasion. Do you like it? Would you make any changes?",
  
