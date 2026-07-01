@@ -9,7 +9,7 @@ const PUZZLE = {
   hebrewWeek: "יוֹם הָעַצְמָאוּת הָאָמֶרִיקָנִי",
   date:       "18 Tammuz 5786  ·  July 4, 2026",
   parasha:    "250 Years of American Independence",
-  haftarah:   "Declaration of Independence · 0",
+  haftarah:   "Declaration of Independence",
  
   reflectionQuestion: "Claude drafted the Al HaNissim prayer below for this occasion. Do you like it? Would you make any changes?",
  
