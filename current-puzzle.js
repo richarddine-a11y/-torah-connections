@@ -1,77 +1,73 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Va'etchanan · Shabbat Nachamu · July 25, 2026 · 11 Av 5786 
+//  Parashat Eikev · August 1, 2026
 // ─────────────────────────────────────────────────────────────────
- 
+
 const PUZZLE = {
- 
-  week:       "Parashat Va'etchanan · Shabbat Nachamu",
-  hebrewWeek: "פָּרָשַׁת וָאֶתְחַנַּן · שַׁבָּת נַחֲמוּ",
-  date:       "10 Av 5786  ·  July 25, 2026",
-  parasha:    "Deuteronomy 3:23–7:11",
-  haftarah:   "Isaiah 40:1–26",
- 
-  reflectionQuestion: "After experiencing Tisha B'Av this year, is there something that is giving you comfort?",
- 
+
+  week:       "Parashat Eikev",
+  hebrewWeek: "פָּרָשַׁת עֵקֶב",
+  date:       "18 Av 5786  ·  August 1, 2026",
+  parasha:    "Deuteronomy 7:12–11:25",
+  haftarah:   "Isaiah 49:14–51:3",
+
+  reflectionQuestion: "In Sarah's Dvar Torah from last week, she said this week's Haftarah shows the Israelites still unconvinced of Hashem's comfort. What do you think?",
+
   categories: [
     {
-      name:  "Doubled Verbs (Isaiah 40)",
-      color: "blue",
-      words: ["ASCEND", "CALLS", "COMFORT", "WITHERS"],
-      explanation: "Isaiah 40 opens with doubled urgency: נַחֲמוּ נַחֲמוּ — comfort, comfort (v.1). The doubling continues: a voice calls, calls (v.3); the grass withers, withers (v.7–8); get up on a high mountain, ascend, ascend (v.9). In biblical Hebrew, doubling is not mere repetition — it signals intensity, insistence, the message that cannot be heard the first time. Comfort must be said twice because the first time, we try to build it ourselves."
-    },
-    {
-      name:  "Elements of an Idol (Isaiah 40:19–20)",
-      color: "green",
-      words: ["GOLD", "METAL", "SILVER", "WOOD"],
-      explanation: "Isaiah 40:19–20 describes the construction of idols with mordant precision: the craftsman casts an image overlaid with gold, with silver chains; the poor man chooses wood that will not rot and seeks a skilled craftsman. Gold, silver, metal, wood — all the materials of human mastery and wealth, rendered as images we control. The prophet's point: whatever we can build with our own hands cannot bear the weight of our trust."
-    },
-    {
-      name:  "A Political Party Could Promise Such Infrastructure (Isaiah 40:3–4)",
+      name:  "Meanings of רֶחֶם (Rechem)",
       color: "yellow",
-      words: ["HIGHWAY", "PLAIN", "ROAD", "VALLEY"],
-      explanation: "Isaiah 40:3–4: \"In the wilderness prepare the way of the LORD; make straight in the desert a highway for our God. Every valley shall be lifted up, every mountain and hill made low; the uneven ground shall become level, and the rough places a plain.\" Material transformation, tangible promises, visible results. We know what these look like. We can campaign on them. But Isaiah offers these images only as prelude — the real announcement is not the road but the One who travels it."
+      words: ["AFFECTION", "COMPASSION", "LOVE", "WOMB"],
+      explanation: "רֶחֶם (rechem) is one of the most resonant words in biblical Hebrew, and it runs through this haftarah like a heartbeat. It means the physical WOMB — the place of origin (49:15: \"the son of her womb\"). It means COMPASSION — the emotional response born from that bond (49:15: \"have no compassion\"). It carries the sense of deep LOVE and AFFECTION — not contingent feeling but the primal bond of creator to created. One root, four dimensions, all describing God's relationship with Israel."
     },
     {
-      name:  "Images of God Comforting Us (Isaiah 40)",
+      name:  "Confidence That God Will Redeem Us",
+      color: "green",
+      words: ["MEMORY", "POWER", "PROMISE", "PROPHET COMMUNICATION"],
+      explanation: "Isaiah builds the case for confidence in four movements: MEMORY — God remembers Abraham and Sarah, the past acts of redemption; POWER — \"The LORD has bared his holy arm\" (52:10), the force that parted seas still operates; PROMISE — the covenant is irrevocable, God's word does not return empty (55:11); and PROPHET COMMUNICATION — Isaiah himself is the evidence, the channel through which God's assurance reaches the despairing exiles. Together they answer Zion's complaint that she has been forgotten."
+    },
+    {
+      name:  "Last Line of the Haftarah (Isaiah 51:3)",
+      color: "blue",
+      words: ["GLADNESS", "JOY", "SONG", "THANKSGIVING"],
+      explanation: "Isaiah 51:3 is the emotional crescendo: \"For the LORD comforts Zion... her wilderness like Eden, her desert like the garden of the LORD; joy and gladness will be found in her, thanksgiving and the voice of song.\" The four words — joy, gladness, thanksgiving, song — are not synonyms but a progression: the interior transformation (joy, gladness) that overflows into expression (thanksgiving, song). Zion's mourning does not merely end; it is actively replaced by its opposite."
+    },
+    {
+      name:  "Contrasting Conditions — What God Transforms (Isaiah 49)",
       color: "purple",
-      words: ["CREATOR", "REWARD", "RULE", "SHEPHERD"],
-      explanation: "The comfort Isaiah actually offers is relational, not material. God as SHEPHERD: \"He will feed his flock like a shepherd; he will gather the lambs\" (v.11). God's RULE: \"Behold, the Lord GOD comes with might, and his arm rules for him\" (v.10). God's REWARD: \"his reward is with him, his recompense before him\" (v.10). God as CREATOR: \"the everlasting God, the Creator of the ends of the earth, does not faint or grow weary\" (v.28). These are not campaign promises. You cannot build them from gold or silver. Only God can provide them."
+      words: ["ABANDONED", "ALONE", "ATTENDED", "CROWDED"],
+      explanation: "The arc of Isaiah 49 is a reversal of conditions. Zion cries: \"The LORD has forsaken me\" — ABANDONED (49:14). She feels utterly ALONE, her children gone, her land desolate. But God promises: the children will return, too many to count — she will be CROWDED (49:20: \"the place is too narrow for me\"). She who was ALONE will be ATTENDED by nations carrying her children home. The transformation is not gradual but total — exile's isolation becoming restoration's abundance."
     }
   ],
- 
+
   dvarTorah: {
-    hebrewTitle: "מַה שֶּׁמְּנַחֵם בֶּאֱמֶת",
-    title: "What Actually Comforts — A Dvar Torah on Isaiah 40",
+    hebrewTitle: "הָרֶחֶם שֶׁלֹּא שׁוֹכֵחַ",
+    title: "The Womb That Never Forgets — A Dvar Torah on Isaiah 49–51",
     text: `
-<p>"Comfort, comfort my people." <span class="heb">נַחֲמוּ נַחֲמוּ עַמִּי</span></p>
- 
-<p>The doubled verb. In Hebrew, doubling means urgency, intensity, the message that must be heard twice because the first time we will not absorb it. Not one comfort — comfort, comfort. Calls, calls. Withers, withers. Ascend, ascend.</p>
- 
-<p>It is the first word of comfort after Tisha B'Av. But what do we expect comfort to look like?</p>
- 
-<p>A political party could promise such infrastructure. Build us roads. Create highways. Level the valleys. Flatten the plains. Material transformation. Tangible promises. We know what these look like — we can vote for them.</p>
- 
-<p>But Isaiah's comfort isn't about infrastructure.</p>
- 
-<p>Look at what people build instead: idols made of gold, silver, wood, metal (40:19–20). Wealth rendered as graven images. We craft comfort from materials we can see and touch. We trust what we can build and control.</p>
- 
-<p>Yet all of it — the idols, the materials, the promises — is emptiness. <span class="heb">כָּל-הַגּוֹיִם כְּאַיִן נֶגְדּוֹ</span> — all nations are as nothing before Him (v.17).</p>
- 
-<p>Real comfort? Isaiah offers shepherd, rule, reward, creator. A shepherd who knows each sheep by name. A rule that brings justice. A reward that satisfies the soul. A creator who sustains without growing weary.</p>
- 
-<p>These are not campaign promises. You cannot build them with roads and highways. You cannot manufacture them from gold or silver.</p>
- 
-<p>Parashat Va'etchanan teaches: <span class="heb">וְאָהַבְתָּ אֵת יְהֹוָה אֱלֹהֶיךָ בְּכָל-לְבָבְךָ</span> — love the LORD your God with all your heart. Not because He promises infrastructure. Not because He delivers material comfort. Because He is the shepherd, the creator, the one whose rule brings peace.</p>
- 
-<p>Shabbat Nachamu comes after destruction. After we've seen that valleys don't stay leveled, that highways crumble, that gold doesn't endure. And Isaiah says: stop looking for comfort in what can be built. Stop building idols from the materials of your own mastery.</p>
- 
-<p>The doubled verb isn't optional urgency. It's essential repetition: comfort, comfort. You must hear this twice because the first time you'll try to build it yourself.</p>
- 
-<p>But this comfort? Only God can provide it.</p>
- 
-<p><em>Shabbat Shalom — may this Shabbat Nachamu bring us the comfort that actually holds.</em></p>
+<p>"Can a woman forget her nursing child, that she should have no compassion on the son of her womb?" (49:15)</p>
+
+<p><span class="heb">רֶחֶם</span> — rechem. The Hebrew word that contains multitudes.</p>
+
+<p>It means womb — the physical place of origin. It means compassion — the emotional response. It means love and affection — the binding of souls. One word. Four dimensions. All of them describing God's relationship with Israel.</p>
+
+<p>Zion complains: <span class="heb">עֲזָבַנִי יְהֹוָה וַאדֹנָי שְׁכֵחָנִי</span> — "The LORD has forsaken me, and my Lord has forgotten me" (49:14). She feels abandoned and alone. The wilderness is desert. The children are gone. Despair is total.</p>
+
+<p>God's response? Not argument. Not defense. Simply: do you know what a womb is?</p>
+
+<p>A womb doesn't forget. It's not theoretical compassion — it's the place where life began. The affection born there is primal, undeniable. The love isn't contingent. It's the structure of existence itself. <span class="heb">גַּם-אֵלֶּה תִשְׁכַּחְנָה וְאָנֹכִי לֹא אֶשְׁכָּחֵךְ</span> — "Even these may forget, yet I will not forget you" (49:15).</p>
+
+<p>When Parashat Eikev teaches about covenant reward — "if you keep these commandments... the LORD will bless you" — it sounds transactional. Obey and receive. But this haftarah reveals the deeper truth: the reward isn't external. It's remembrance. It's being held in the womb of God's <span class="heb">רֶחֶם</span>.</p>
+
+<p>Israel feels abandoned. But God transforms the condition: she becomes attended. She's alone, but becomes crowded with children returning. Memory connects Abraham and Sarah to every generation. Power and promise sustain what memory recalls.</p>
+
+<p>Sarah's observation last week was astute: the Israelites in Isaiah 49 are not yet convinced. Zion's complaint — "I have been forsaken" — is real, not rhetorical. The comfort in Isaiah 40 was given; in Isaiah 49, Zion still protests. She hasn't absorbed it yet. Perhaps comfort is like that. It must be offered again and again — doubly, like the doubled verbs — before it takes hold in a grieving heart.</p>
+
+<p>And the haftarah ends with joy, gladness, thanksgiving, song — not because circumstances changed in the moment, but because the promise is sure: <span class="heb">וְשָׂשׂוֹן וְשִׂמְחָה יִמָּצֵא בָהּ תּוֹדָה וְקוֹל זִמְרָה</span> — joy and gladness will be found in her, thanksgiving and the voice of song (51:3).</p>
+
+<p>Rechem — the word that says: you were born from my being. You live in my compassion. You cannot be forgotten because you are part of my womb.</p>
+
+<p><em>Shabbat Shalom — may we hear the comfort that is offered to us, as many times as it takes.</em></p>
 `
   }
- 
+
 };
