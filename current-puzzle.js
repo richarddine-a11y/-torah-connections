@@ -1,72 +1,66 @@
 // ─────────────────────────────────────────────────────────────────
 //  TORAH CONNECTIONS — Weekly Puzzle Data
-//  Parashat Eikev · August 1, 2026
+//  Parashat Re'eh · August 8, 2026
 // ─────────────────────────────────────────────────────────────────
 
 const PUZZLE = {
 
-  week:       "Parashat Eikev",
-  hebrewWeek: "פָּרָשַׁת עֵקֶב",
-  date:       "18 Av 5786  ·  August 1, 2026",
-  parasha:    "Deuteronomy 7:12–11:25",
-  haftarah:   "Isaiah 49:14–51:3",
+  week:       "Parashat Re'eh",
+  hebrewWeek: "פָּרָשַׁת רְאֵה",
+  date:       "25 Av 5786  ·  August 8, 2026",
+  parasha:    "Deuteronomy 11:26–16:17",
+  haftarah:   "Isaiah 54:11–55:5",
 
-  reflectionQuestion: "In Sarah's Dvar Torah from last week, she said this week's Haftarah shows the Israelites still unconvinced of Hashem's comfort. What do you think?",
+  reflectionQuestion: "We sometimes wonder if the Rabbis were joking when they said that Talmidei Chachamim bring peace. Could this Haftarah point to us the way to make it less of a joke?",
 
   categories: [
     {
-      name:  "Meanings of רֶחֶם (Rechem)",
+      name:  "Haftarah as Referenced in Berachot 64a",
       color: "yellow",
-      words: ["AFFECTION", "COMPASSION", "LOVE", "WOMB"],
-      explanation: "רֶחֶם (rechem) is one of the most resonant words in biblical Hebrew, and it runs through this haftarah like a heartbeat. It means the physical WOMB — the place of origin (49:15: \"the son of her womb\"). It means COMPASSION — the emotional response born from that bond (49:15: \"have no compassion\"). It carries the sense of deep LOVE and AFFECTION — not contingent feeling but the primal bond of creator to created. One root, four dimensions, all describing God's relationship with Israel."
+      words: ["BUILDERS", "CHILDREN", "PEACE", "TALMIDEI CHACHAMIM"],
+      explanation: "Berachot 64a quotes Isaiah 54:13 — \"All your children shall be taught by the LORD, and great shall be the peace of your children\" — and makes a stunning interpretive move: do not read בָּנַיִךְ (your children) but בּוֹנַיִךְ (your builders). From this the Talmud derives: talmidei chachamim increase peace in the world. The four words map the argument — children/builders, talmidei chachamim, and the peace they produce. The Rabbis found the whole program for building the world in one verse of this haftarah."
     },
     {
-      name:  "Confidence That God Will Redeem Us",
+      name:  "God Causing the Opposite of These (Isaiah 54:15–17)",
       color: "green",
-      words: ["MEMORY", "POWER", "PROMISE", "PROPHET COMMUNICATION"],
-      explanation: "Isaiah builds the case for confidence in four movements: MEMORY — God remembers Abraham and Sarah, the past acts of redemption; POWER — \"The LORD has bared his holy arm\" (52:10), the force that parted seas still operates; PROMISE — the covenant is irrevocable, God's word does not return empty (55:11); and PROPHET COMMUNICATION — Isaiah himself is the evidence, the channel through which God's assurance reaches the despairing exiles. Together they answer Zion's complaint that she has been forgotten."
+      words: ["MY DOING", "RISE", "SUCCESS", "VICTORY"],
+      explanation: "Isaiah 54:15–17 offers a stunning reversal: whoever rises against Israel does so — but not from God; and whoever rises against you shall fall. \"No weapon that is formed against you shall prosper.\" The enemies plot for SUCCESS, seek to RISE, claim VICTORY — but it all becomes MY DOING, God's undoing of their designs. Their conquest becomes testimony. The very attacks that were meant to destroy become, in God's economy, proof of the covenant's endurance."
     },
     {
-      name:  "Last Line of the Haftarah (Isaiah 51:3)",
+      name:  "Options for Spending Money — Only One Truly for Your Good (Isaiah 55:1–2)",
       color: "blue",
-      words: ["GLADNESS", "JOY", "SONG", "THANKSGIVING"],
-      explanation: "Isaiah 51:3 is the emotional crescendo: \"For the LORD comforts Zion... her wilderness like Eden, her desert like the garden of the LORD; joy and gladness will be found in her, thanksgiving and the voice of song.\" The four words — joy, gladness, thanksgiving, song — are not synonyms but a progression: the interior transformation (joy, gladness) that overflows into expression (thanksgiving, song). Zion's mourning does not merely end; it is actively replaced by its opposite."
+      words: ["BREAD", "GOOD FOOD", "GOD'S TEACHINGS", "WATER"],
+      explanation: "Isaiah 55:1–2: \"Come, everyone who thirsts, come to the waters... come, buy and eat... Why do you spend your money for that which is not bread, and your labor for that which does not satisfy?\" The marketplace has options: bread and good food (physical sustenance, briefly satisfying), water (freely available), and God's teachings (freely offered, truly nourishing). The moral critique is economic: we exhaust our resources on what cannot satisfy while the thing that truly feeds — divine wisdom — costs nothing. Parashat Re'eh's \"blessing and curse\" is, at its heart, this same choice."
     },
     {
-      name:  "Contrasting Conditions — What God Transforms (Isaiah 49)",
+      name:  "Images of David from the End of the Haftarah (Isaiah 55:3–4)",
       color: "purple",
-      words: ["ABANDONED", "ALONE", "ATTENDED", "CROWDED"],
-      explanation: "The arc of Isaiah 49 is a reversal of conditions. Zion cries: \"The LORD has forsaken me\" — ABANDONED (49:14). She feels utterly ALONE, her children gone, her land desolate. But God promises: the children will return, too many to count — she will be CROWDED (49:20: \"the place is too narrow for me\"). She who was ALONE will be ATTENDED by nations carrying her children home. The transformation is not gradual but total — exile's isolation becoming restoration's abundance."
+      words: ["COMMANDER", "LOVED", "PRINCE", "WITNESS"],
+      explanation: "Isaiah 55:4 gives David four titles in rapid succession: \"Behold, I made him a witness to the peoples, a leader and commander for the peoples.\" And underlying all of it is the covenant of steadfast love (55:3): חַסְדֵי דָוִד הַנֶּאֱמָנִים — the sure mercies of David. Commander and prince name his authority; witness names his theological function (testifying to God's power among the nations); loved names the covenantal bond from which all else flows. David ends the haftarah as the model: not a conqueror, but a covenant-partner."
     }
   ],
 
   dvarTorah: {
-    hebrewTitle: "הָרֶחֶם שֶׁלֹּא שׁוֹכֵחַ",
-    title: "The Womb That Never Forgets — A Dvar Torah on Isaiah 49–51",
+    hebrewTitle: "עַל מָה הָעוֹלָם בֶּאֱמֶת נִבְנֶה",
+    title: "What the World Is Actually Built On — A Dvar Torah on Isaiah 54–55",
     text: `
-<p>"Can a woman forget her nursing child, that she should have no compassion on the son of her womb?" (49:15)</p>
+<p>"Come, everyone who thirsts, come to the waters... why do you spend your money for that which is not bread?" (55:1–2)</p>
 
-<p><span class="heb">רֶחֶם</span> — rechem. The Hebrew word that contains multitudes.</p>
+<p>The haftarah invites us to see what's really being sold.</p>
 
-<p>It means womb — the physical place of origin. It means compassion — the emotional response. It means love and affection — the binding of souls. One word. Four dimensions. All of them describing God's relationship with Israel.</p>
+<p>In the marketplace, there are options. Bread and good food — you spend money for these. Your appetite is satisfied briefly. Then hunger returns. The cycle continues. But there is water. And there are God's teachings. Both freely offered. Both truly sustain.</p>
 
-<p>Zion complains: <span class="heb">עֲזָבַנִי יְהֹוָה וַאדֹנָי שְׁכֵחָנִי</span> — "The LORD has forsaken me, and my Lord has forgotten me" (49:14). She feels abandoned and alone. The wilderness is desert. The children are gone. Despair is total.</p>
+<p>The Talmud in Berachot 64a recognizes what Isaiah is teaching. Do not read <span class="heb">בָּנַיִךְ</span> (your children) but <span class="heb">בּוֹנַיִךְ</span> (your builders): the world is built on children, builders, talmidei chachamim, and peace. Four things that cannot be purchased. Four things that create lasting structure.</p>
 
-<p>God's response? Not argument. Not defense. Simply: do you know what a womb is?</p>
+<p>This is where the reflection question bites: do we really believe talmidei chachamim bring peace? The wisecrack writes itself — look at any beit midrash argument. But Isaiah's answer is serious. Talmidei chachamim who study Isaiah 55 learn that the thing worth spending yourself on is God's teachings, not conquest. They learn from Isaiah 54 that God's protection is surer than any weapon. They transmit that learning to children who become builders. The chain is: study → transmission → generation → peace. It is slow. It is undramatic. It is, Isaiah insists, the only thing that actually works.</p>
 
-<p>A womb doesn't forget. It's not theoretical compassion — it's the place where life began. The affection born there is primal, undeniable. The love isn't contingent. It's the structure of existence itself. <span class="heb">גַּם-אֵלֶּה תִשְׁכַּחְנָה וְאָנֹכִי לֹא אֶשְׁכָּחֵךְ</span> — "Even these may forget, yet I will not forget you" (49:15).</p>
+<p>Meanwhile enemies try the shortcut. They plot for success. They rise against us. They claim victory. God's response in 54:15–17: their weapons will not prosper. <span class="heb">זֹאת נַחֲלַת עַבְדֵי יְהֹוָה</span> — "This is the heritage of the servants of the LORD." Their victory becomes my doing — God's undoing of their designs.</p>
 
-<p>When Parashat Eikev teaches about covenant reward — "if you keep these commandments... the LORD will bless you" — it sounds transactional. Obey and receive. But this haftarah reveals the deeper truth: the reward isn't external. It's remembrance. It's being held in the womb of God's <span class="heb">רֶחֶם</span>.</p>
+<p>Parashat Re'eh says: <span class="heb">רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָה</span> — "See, I set before you this day a blessing and a curse." Choose wisely. Isaiah shows what each choice produces. Spend yourself on bread and good food that cannot satisfy — you remain hungry. Choose God's teachings, freely offered — you are nourished forever. Build with conquest and violence — your walls crumble. Build with peace, children, builders, and talmidei chachamim — and your foundations are sapphires and your gates sparkling stones (54:11–12).</p>
 
-<p>Israel feels abandoned. But God transforms the condition: she becomes attended. She's alone, but becomes crowded with children returning. Memory connects Abraham and Sarah to every generation. Power and promise sustain what memory recalls.</p>
+<p>David stands at the end as the model — not through money or conquest, but as witness, commander, prince, and most essentially: loved. <span class="heb">חַסְדֵי דָוִד הַנֶּאֱמָנִים</span> — the sure mercies of David (55:3). The covenant of love is what endures. That's what actually lasts.</p>
 
-<p>Sarah's observation last week was astute: the Israelites in Isaiah 49 are not yet convinced. Zion's complaint — "I have been forsaken" — is real, not rhetorical. The comfort in Isaiah 40 was given; in Isaiah 49, Zion still protests. She hasn't absorbed it yet. Perhaps comfort is like that. It must be offered again and again — doubly, like the doubled verbs — before it takes hold in a grieving heart.</p>
-
-<p>And the haftarah ends with joy, gladness, thanksgiving, song — not because circumstances changed in the moment, but because the promise is sure: <span class="heb">וְשָׂשׂוֹן וְשִׂמְחָה יִמָּצֵא בָהּ תּוֹדָה וְקוֹל זִמְרָה</span> — joy and gladness will be found in her, thanksgiving and the voice of song (51:3).</p>
-
-<p>Rechem — the word that says: you were born from my being. You live in my compassion. You cannot be forgotten because you are part of my womb.</p>
-
-<p><em>Shabbat Shalom — may we hear the comfort that is offered to us, as many times as it takes.</em></p>
+<p><em>Shabbat Shalom — may we spend ourselves on what truly nourishes.</em></p>
 `
   }
 
